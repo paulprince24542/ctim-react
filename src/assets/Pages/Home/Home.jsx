@@ -29,7 +29,7 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-md-6 about-image">
-              <img className=" img-fluid" src="./assets/images/R5.jpg" alt="" />
+              <img className=" img-fluid" src="./assets/images/cells1.png" alt="" />
             </div>
             <div className="col-xs-12 col-md-6 about-content">
               <h2>

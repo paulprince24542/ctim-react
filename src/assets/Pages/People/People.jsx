@@ -23,7 +23,7 @@ const People = () => {
       {/* Team Section Start */}
       <section>
         <div className="container">
-          <div className="row">
+          <div className="row t1">
             <div className="col-xs-12 col-md-6 team-image-box">
               <img src="./assets/images/team/pi/p1.jpeg" alt="" />
               <h4>Dr. Suboj Babykutty</h4>
