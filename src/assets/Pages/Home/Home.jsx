@@ -15,7 +15,7 @@ const Home = () => {
       <div className="video-wrapper">
         <video muted loop autoPlay>
           {/* <source src="./assets/videos/hero_frame_1.mp4" type="video/mp4" /> */}
-          <source src="./assets/videos/cells1.mp4" type="video/mp4" />
+          <source src="./assets/videos/cells2.mp4" type="video/mp4" />
         </video>
         <div className="content">
           <h1>Welcome To CTIM</h1>
@@ -29,11 +29,7 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-md-6 about-image">
-              <img
-                className=" img-fluid"
-                src="./assets/images/cells1.png"
-                alt=""
-              />
+              <img className=" img-fluid" src="./assets/images/R5.jpg" alt="" />
             </div>
             <div className="col-xs-12 col-md-6 about-content">
               <h2>
@@ -63,52 +59,58 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <div className="card-1 mb-3">
-                <img
-                  src="./assets/images/N1.jpeg"
-                  className="card-img-top"
-                  alt="..."
-                />
-                <div className="card-body">
-                  <h5 className="card-title">Find CTIM-related publications here !</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <center>
-                  <button className="card-btn">Go Somwhere</button>
-                  </center>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card-1 mb-3">
+              <div className="card-1 mb-4">
                 <img
                   src="./assets/images/R2.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Find latest news from CITM Lab !</h5>
+                  <h5 className="card-title">
+                    Find CTIM-related publications here !
+                  </h5>
                   <p className="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
                   <center>
-                  <button className="card-btn">Go Somwhere</button>
+                    <button className="card-btn">Go Somwhere</button>
                   </center>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card-1 mb-3">
+              <div className="card-1 mb-4">
+                <img
+                  src="./assets/images/N1.jpeg"
+                  className="card-img-top"
+                  alt="..."
+                />
+                <div className="card-body">
+                  <h5 className="card-title">
+                    Find latest news from CITM Lab !
+                  </h5>
+                  <p className="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <center>
+                    <button className="card-btn">Go Somwhere</button>
+                  </center>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card-1 mb-4">
                 <img
                   src="./assets/images/R4.jpeg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Reasearch Materials from CTIM Lab</h5>
+                  <h5 className="card-title">
+                    Reasearch Materials from CTIM Lab
+                  </h5>
                   <p className="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.

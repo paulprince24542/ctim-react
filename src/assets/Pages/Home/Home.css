@@ -12,7 +12,8 @@
     font-size: 25px;
   }
   .about-wrapper {
-    height: 510px;
+    margin-top: 40px;
+    height: 460px;
   }
   .card-section {
     margin-top: 70px;
@@ -45,8 +46,8 @@
     margin-bottom: 40px;
   }
   .card-1 {
-    height: 570px;
-    width: 310px;
+    height: 540px;
+    width: 350px;
   }
 }
 
@@ -78,14 +79,14 @@ video {
 
 .content > h1 {
   color: #419197;
-  color: white;
+  /* color: white; */
   font-family: "Cormorant Garamond", serif;
   font-family: "Montserrat", sans-serif;
 }
 
 .content > p {
   color: #419197;
-  color: #7fc2acd0;
+  /* color: #7fc2acd0; */
   font-weight: bold;
 }
 
@@ -116,7 +117,8 @@ p {
 }
 
 .about-content {
-  padding: 100px;
+  /* padding: 100px; */
+  padding-top: 20px;
 }
 
 .about-content h2 {
