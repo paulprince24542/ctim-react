@@ -1,0 +1,92 @@
+@media only screen and (min-width: 1200px) {
+  .navbar {
+    height: 120px;
+    background-color: white;
+
+  }
+
+  .nav-link {
+    margin-top: 30px;
+    font-size: 17px;
+  }
+  .logo-1 {
+    margin-top: 10px;
+    width: 200px;
+    height: 100px;
+  }
+
+  .logo-2 {
+    margin-top: 30px;
+    width: 240px;
+    height: 100px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    height: 130px;
+  }
+
+  .nav-link {
+    margin-top: 30px;
+    font-size: 17px;
+  }
+  .logo-1 {
+    width: 200px;
+    height: 100px;
+  }
+
+  .logo-2 {
+    width: 240px;
+    height: 100px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-btn {
+    margin-top: 40px;
+  }
+  .logo-1 {
+    width: 200px;
+    height: 100px;
+  }
+
+  .logo-3 {
+    width: 240px;
+    height: 100px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .nav-btn {
+    margin-top: 40px;
+  }
+  .logo-1 {
+    width: 200px;
+    height: 100px;
+  }
+
+  .logo-3 {
+    width: 240px;
+    height: 100px;
+    margin-top: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .nav-btn {
+      margin-top: 20px;
+    }
+    .logo-1 {
+      width: 130px;
+      height: 60px;
+    }
+  
+    .logo-3 {
+      width: 130px;
+      height: 60px;
+      margin-top: 10px;
+    }
+  }
