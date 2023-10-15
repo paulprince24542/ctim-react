@@ -1,3 +1,110 @@
+@media only screen and (min-width: 1200px) {
+  .team-image-box {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+
+  .team-image-box img {
+    width: 50%;
+    border-radius: 20px;
+  }
+
+  .team-image-box h4 {
+    margin-top: 10px;
+  }
+
+  .team-content-box {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .team-content-box p {
+    padding: 40px;
+    text-align: left;
+    color: black;
+    margin-top: 20px;
+  }
+
+  .team-content-box a {
+    margin-left: 40px;
+    background-color: rgb(204, 65, 88);
+    padding: 15px 15px;
+    color: white;
+    transition: 0.3s;
+    border-radius: 10px;
+  }
+
+  .team-content-box a:hover {
+    background-color: rgb(37, 179, 136);
+  }
+  .schoolar-images {
+    margin-top: 30px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .schoolar-images img {
+    width: 100px;
+  }
+
+  .team-image-box-child img {
+    width: 50%;
+    border-radius: 20px;
+  }
+
+  .team-content-box-child {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+  }
+
+  .team-content-box-child p {
+    color: black;
+    padding: 20px;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (max-width: 600px) {
+  .team-image-box {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .team-content-box p {
+    padding: 20px;
+    text-align: left;
+    color: black;
+    margin-top: 20px;
+  }
+  .schoolar-images {
+    width: 100%;
+  }
+  .team-content-box {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+  }
+  .team-content-box a {
+    margin-left: 15px;
+  }
+}
+
 .team-heading-section > h2 {
   text-transform: uppercase;
   margin-top: 20px;
@@ -11,4 +118,72 @@
 
 .team-heading-section > h4 {
   margin-bottom: 30px;
+}
+
+.team-image-box {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.team-image-box img {
+  width: 50%;
+  border-radius: 20px;
+}
+
+.team-image-box h4 {
+  margin-top: 10px;
+}
+
+.team-content-box {
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+.team-content-box p {
+  color: black;
+  margin-top: 20px;
+}
+
+.team-content-box a {
+  background-color: rgb(204, 65, 88);
+  padding: 15px 15px;
+  color: white;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.team-content-box a:hover {
+  background-color: rgb(37, 179, 136);
+}
+.schoolar-images {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.schoolar-images img {
+  width: 100px;
+}
+
+.team-image-box-child img {
+  width: 50%;
+  border-radius: 20px;
+}
+
+.team-content-box-child {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+}
+
+.team-content-box-child p {
+  color: black;
+  padding: 20px;
+  text-align: center;
 }

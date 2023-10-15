@@ -109,7 +109,7 @@ const Home = () => {
                 />
                 <div className="card-body">
                   <h5 className="card-title">
-                    Reasearch Materials from CTIM Lab
+                    Research Materials from CTIM Lab
                   </h5>
                   <p className="card-text">
                     Some quick example text to build on the card title and make
