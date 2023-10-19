@@ -5,12 +5,28 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .g-box-1 img:hover,
+  .g-box-2 img:hover {
+    transform: scale(1.1);
+    /* opacity: 0.3; */
+  }
 }
 
 @media only screen and (min-width: 992px) {
+  .g-box-1 img:hover,
+  .g-box-2 img:hover {
+    transform: scale(1.1);
+    /* opacity: 0.3; */
+  }
 }
 
 @media only screen and (min-width: 1200px) {
+  .g-box-1 img:hover,
+  .g-box-2 img:hover {
+    transform: scale(1.1);
+    border-radius: 20px;
+    /* opacity: 0.3; */
+  }
 }
 
 .images-section {
@@ -25,13 +41,7 @@
 
   height: 100%;
   width: 100%;
-  transition: 0.3s ease-out;
-}
-
-.g-box-1 img:hover,
-.g-box-2 img:hover {
-  transform: scale(1.1);
-  /* opacity: 0.3; */
+  transition: 0.3s;
 }
 
 .g-box-1 {
@@ -44,4 +54,13 @@
   height: 240px;
   margin-bottom: 20px;
   overflow: hidden;
+}
+
+.g-box-1:hover {
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.g-box-2:hover {
+  border-radius: 20px;
+  transition: 0, 3s;
 }

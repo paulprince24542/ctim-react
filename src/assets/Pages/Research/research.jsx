@@ -14,23 +14,23 @@ const Research = () => {
             <div className="col-md-6">
               <div className="research-images">
                 <div className="t1">
-                  <div className="box-1">
+                  <div className="box-1 tb">
                     <img src="./assets/images/collage-1/R6.png" alt="" />
                   </div>
-                  <div className="box-2">
+                  <div className="box-2 tb">
                     <img src="./assets/images/collage-1/R7.png" alt="" />
                   </div>
                 </div>
                 <div className="t1">
-                  <div className="box-3">
+                  <div className="box-3 tb">
                     <img src="./assets/images/collage-1/R8.png" alt="" />
                   </div>
-                  <div className="box-4">
+                  <div className="box-4 tb">
                     <img src="./assets/images/collage-1/R9.png" alt="" />
                   </div>
                 </div>
                 <div className="t1">
-                  <div className="box-3">
+                  <div className="box-3 tb">
                     <img src="./assets/images/collage-1/R10.png" alt="" />
                   </div>
                 </div>
