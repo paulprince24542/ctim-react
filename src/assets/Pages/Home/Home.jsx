@@ -7,6 +7,24 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/footer";
 
 const Home = () => {
+  var cardData = [
+    {
+      img: "./assets/images/R2.jpg",
+      head: "Find CTIM-related publications here !",
+      desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    },
+    {
+      img: "./assets/images/N1.jpeg",
+      head: "Find latest news from CITM Lab !",
+      desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    },
+    {
+      img: "./assets/images/R6.png",
+      head: "Research Materials from CTIM Lab",
+      desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    },
+  ];
+
   return (
     <div>
       <Navbar />
@@ -29,7 +47,11 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-md-6 about-image">
-              <img className=" img-fluid" src="./assets/images/cells1.png" alt="" />
+              <img
+                className=" img-fluid"
+                src="./assets/images/cells1.png"
+                alt=""
+              />
             </div>
             <div className="col-xs-12 col-md-6 about-content">
               <h2>
@@ -58,72 +80,20 @@ const Home = () => {
       <section className="card-section">
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
-              <div className="card-1 mb-4">
-                <img
-                  src="./assets/images/R2.jpg"
-                  className="card-img-top"
-                  alt="..."
-                />
-                <div className="card-body">
-                  <h5 className="card-title">
-                    Find CTIM-related publications here !
-                  </h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <center>
-                    <button className="card-btn">Go Somwhere</button>
-                  </center>
+            {cardData.map((data) => (
+              <div className="col-md-4">
+                <div className="card-1 mb-4">
+                  <img src={data.img} className="card-img-top" alt="..." />
+                  <div className="card-body">
+                    <h5 className="card-title">{data.head}</h5>
+                    <p className="card-text">{data.desc}</p>
+                    <center>
+                      <button className="card-btn">Go Somwhere</button>
+                    </center>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card-1 mb-4">
-                <img
-                  src="./assets/images/N1.jpeg"
-                  className="card-img-top"
-                  alt="..."
-                />
-                <div className="card-body">
-                  <h5 className="card-title">
-                    Find latest news from CITM Lab !
-                  </h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <center>
-                    <button className="card-btn">Go Somwhere</button>
-                  </center>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card-1 mb-4">
-                <img
-                  src="./assets/images/R4.jpeg"
-                  className="card-img-top"
-                  alt="..."
-                />
-                <div className="card-body">
-                  <h5 className="card-title">
-                    Research Materials from CTIM Lab
-                  </h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <center>
-                    {/* <a href="#" className="btn btn-primary">
-                      Go somewhere
-                    </a> */}
-                    <button className="card-btn">Go Somwhere</button>
-                  </center>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>

@@ -103,8 +103,6 @@
   .team-content-box a {
     margin-left: 15px;
   }
-
-
 }
 
 .team-heading-section > h2 {
@@ -133,6 +131,7 @@
 .team-image-box img {
   width: 50%;
   border-radius: 20px;
+  transition: .3s;
 }
 
 .team-image-box h4 {
@@ -155,6 +154,7 @@
   color: white;
   transition: 0.3s;
   border-radius: 10px;
+  text-decoration: none;
 }
 
 .team-content-box a:hover {
@@ -188,4 +188,9 @@
   color: black;
   padding: 20px;
   text-align: center;
+}
+
+.team-image-box img:hover {
+  transform: scale(1.1);
+  /* opacity: 0.3; */
 }

@@ -11,7 +11,7 @@ const Gallery = () => {
         <div class="row justify-content-between mt-5">
           <div class="col-md-3 g-box-1">
             <img
-              src="./assets/images/gallery/6.jpg"
+              src="./assets/images/gallery/6.png"
               class="col-md-12 img-box"
               alt=""
             />
@@ -20,14 +20,14 @@ const Gallery = () => {
             <div class="row">
               <div class="col-md-12 g-box-2">
                 <img
-                  src="./assets/images/gallery/8.jpg"
+                  src="./assets/images/gallery/8.png"
                   class="col-md-12 img-box"
                   alt=""
                 />
               </div>
               <div class="col-md-12 g-box-2">
                 <img
-                  src="./assets/images/gallery/7.jpg"
+                  src="./assets/images/gallery/7.png"
                   class="col-md-12 img-box"
                   alt=""
                 />
@@ -38,14 +38,14 @@ const Gallery = () => {
             <div class="row">
               <div class="col-md-12 g-box-2">
                 <img
-                  src="./assets/images/gallery/12.jpeg"
+                  src="./assets/images/gallery/12.png"
                   class="col-md-12 img-box"
                   alt=""
                 />
               </div>
               <div class="col-md-12 g-box-2">
                 <img
-                  src="./assets/images/gallery/4.jpg"
+                  src="./assets/images/gallery/4.png"
                   class="col-md-12 img-box"
                   alt=""
                 />
@@ -54,7 +54,7 @@ const Gallery = () => {
           </div>
           <div class="col-md-3 g-box-1">
             <img
-              src="./assets/images/gallery/5.jpg"
+              src="./assets/images/gallery/5.png"
               class="col-md-12 img-transalate img-box"
               alt=""
             />
@@ -63,7 +63,7 @@ const Gallery = () => {
         <div class="row justify-content-between mt-1">
           <div class="col-md-3 g-box-1">
             <img
-              src="./assets/images/gallery/10.jpeg"
+              src="./assets/images/gallery/10.png"
               class="col-md-12 img-box"
               alt=""
             />
@@ -72,14 +72,14 @@ const Gallery = () => {
             <div class="row">
               <div class="col-md-12 g-box-2">
                 <img
-                  src="./assets/images/gallery/1.jpeg"
+                  src="./assets/images/gallery/1.png"
                   class="col-md-12 img-box"
                   alt=""
                 />
               </div>
               <div class="col-md-12 g-box-2">
                 <img
-                  src="./assets/images/gallery/2.jpeg"
+                  src="./assets/images/gallery/2.png"
                   class="col-md-12 img-box"
                   alt=""
                 />
@@ -90,14 +90,14 @@ const Gallery = () => {
             <div class="row">
               <div class="col-md-12 g-box-2">
                 <img
-                  src="./assets/images/gallery/3.jpeg"
+                  src="./assets/images/gallery/3.png"
                   class="col-md-12 img-box"
                   alt=""
                 />
               </div>
               <div class="col-md-12 g-box-2">
                 <img
-                  src="./assets/images/gallery/9.jpg"
+                  src="./assets/images/gallery/9.png"
                   class="col-md-12 img-box"
                   alt=""
                 />
@@ -106,7 +106,7 @@ const Gallery = () => {
           </div>
           <div class="col-md-3 g-box-1">
             <img
-              src="./assets/images/gallery/11.jpeg"
+              src="./assets/images/gallery/11.png"
               class="col-md-12 img-transalate img-box"
               alt=""
             />

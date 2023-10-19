@@ -3,6 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 @media only screen and (min-width: 1200px) {
   .content > h1 {
@@ -17,7 +19,7 @@
     height: 450px;
   }
   .card-section {
-    margin-top: 70px;
+    margin-top: 290px;
     margin-bottom: 70px;
   }
   .card-1 {
@@ -93,6 +95,7 @@ video {
   /* color: white; */
   font-family: "Cormorant Garamond", serif;
   font-family: "Montserrat", sans-serif;
+ 
 }
 
 .content > p {
@@ -108,6 +111,8 @@ video {
 .about-content > h2,
 p {
   color: white;
+  /* font-family: 'Fredericka the Great', serif; */
+  
 }
 
 .about-content > h2 {
