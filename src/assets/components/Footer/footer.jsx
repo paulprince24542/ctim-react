@@ -16,6 +16,7 @@ const Footer = () => {
               </div>
               <div className="col-md-4">
                 <div className="cta-text">
+                <i className="fas fa-map-marker-alt"></i>
                   <h4>Call Us</h4>
                   <span>1010 Avenue, sw 54321, chandigarh</span>
                 </div>
@@ -112,6 +113,24 @@ const Footer = () => {
                     <button className="subscribe-btn"></button>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="copyright-area">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-xl-12 col-lg-12">
+              <div className="copyright-text">
+                <p>Copyright &copy; 2023, All Right Reserved CTIM</p>
+                <p>
+                  Developed by{" "}
+                  <a className="profile-link" href="https://paulprince24542.github.io/portfolio/">
+                    {" "}
+                    Paul Prince
+                  </a>
+                </p>
               </div>
             </div>
           </div>

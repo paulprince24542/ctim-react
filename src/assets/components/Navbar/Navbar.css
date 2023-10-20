@@ -2,7 +2,6 @@
   .navbar {
     height: 120px;
     background-color: white;
-
   }
 
   .nav-link {
@@ -74,19 +73,21 @@
   }
 }
 
-
 @media only screen and (max-width: 600px) {
-    .nav-btn {
-      margin-top: 20px;
-    }
-    .logo-1 {
-      width: 130px;
-      height: 60px;
-    }
-  
-    .logo-3 {
-      width: 130px;
-      height: 60px;
-      margin-top: 10px;
-    }
+  .navbar {
+    background-color: white;
   }
+  .nav-btn {
+    margin-top: 20px;
+  }
+  .logo-1 {
+    width: 130px;
+    height: 60px;
+  }
+
+  .logo-3 {
+    width: 130px;
+    height: 60px;
+    margin-top: 10px;
+  }
+}

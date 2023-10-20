@@ -1,4 +1,20 @@
 @media only screen and (max-width: 600px) {
+  .research-section {
+    margin-bottom: 50px;
+  }
+  .research-images {
+    margin-top: 50px;
+  }
+  .research-contents h3 {
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .research-contents p {
+    margin-top: 30px;
+    color: black;
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -13,7 +29,8 @@
 @media only screen and (min-width: 1200px) {
   .research-section {
     background-color: rgb(254, 255, 255);
-    height: 100vh;
+    height: 100%;
+    margin-bottom: 50px;
   }
   .research-images {
     background-color: rgb(255, 255, 255);
@@ -23,13 +40,16 @@
     justify-content: center;
     flex-direction: column;
   }
+  .research-contents h3 {
+    margin-top: 50px;
+    text-align: center;
+  }
 
-  /* .research-images img{
-  
-    object-fit: cover;
-    margin-top: 20px;
-    margin-left: 20px;
-  } */
+  .research-contents p {
+    margin-top: 30px;
+    color: black;
+    text-align: left;
+  }
 }
 
 .t1 {
@@ -66,12 +86,20 @@
 }
 
 .research-contents h3 {
-  text-align: center;
-  margin-top: 100px;
+  font-family: "Roboto", sans-serif;
 }
 
 .research-contents p {
-  margin-top: 50px;
+  margin-top: 30px;
   color: black;
   text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+
+.accordian-section {
+  margin-bottom: 30px;
+}
+
+.accordion-item{
+  margin-top: 20px;
 }
