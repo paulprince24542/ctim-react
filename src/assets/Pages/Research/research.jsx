@@ -4,6 +4,7 @@ import "./research.css";
 
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/footer";
+import collaboratorData from "../../Utils/data";
 
 const Research = () => {
   return (
@@ -93,214 +94,33 @@ const Research = () => {
         <h2>
           Research <span style={{ color: "red" }}>Collabrators</span>
         </h2>
-        <div className="accordion" id="accordionExample">
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingOne">
-              <button
-                className="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          {collaboratorData.map((data) => (
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target={"#" + data.id}
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  {data.name}
+                </button>
+              </h2>
+              <div
+                id={data.id}
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
               >
-                Dan Duda, Ph.D
-              </button>
-            </h2>
-            <div
-              id="collapseOne"
-              className="accordion-collapse collapse show"
-              aria-labelledby="headingOne"
-              data-bs-parent="#accordionExample"
-            >
-              <div className="accordion-body">
-                Associate Professor, Radiation Oncology, Harvard Medical School
-                Director of Translational Research, Investigator, Radiation
-                Oncology/Steele Laboratories, Massachusetts General Hospital
+                <div class="accordion-body">
+                 {data.desc}
+                </div>
               </div>
             </div>
-          </div>
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingTwo">
-              <button
-                className="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                Sabu Thomas, Ph.D
-              </button>
-            </h2>
-            <div
-              id="collapseTwo"
-              className="accordion-collapse collapse"
-              aria-labelledby="headingTwo"
-              data-bs-parent="#accordionExample"
-            >
-              <div className="accordion-body">
-                Professor of Polymer Science & Engineering, School of Chemical
-                Sciences and Founder Director, International and Inter
-                UniversityCentre for Nanoscience and Nanotechnology, Mahatma
-                Gandhi University Priyadarshini Hills P. O. Kottayam, Kerala,
-                India-686 560
-              </div>
-            </div>
-          </div>
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingThree">
-              <button
-                className="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                S. Murty Srinivasula, Ph.D.
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              className="accordion-collapse collapse"
-              aria-labelledby="headingThree"
-              data-bs-parent="#accordionExample"
-            >
-              <div className="accordion-body">
-                Professor School of Biology, BSB2112, BSB Building, Indian
-                Institute of Science Education and Research, Thiruvananthapuram,
-                Maruthamala PO, Vithura, Thiruvananthapuram - 695551, Kerala,
-                INDIA.
-              </div>
-            </div>
-          </div>
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingThree">
-              <button
-                className="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                Dr. Lakshmi.S
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              className="accordion-collapse collapse"
-              aria-labelledby="headingThree"
-              data-bs-parent="#accordionExample"
-            >
-              <div className="accordion-body">
-                Additional Professor Regional Cancer Centre Thiruvananthapuram
-                Kerala
-              </div>
-            </div>
-          </div>
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingThree">
-              <button
-                className="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                Tai Hato, MD, Ph.D
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              className="accordion-collapse collapse"
-              aria-labelledby="headingThree"
-              data-bs-parent="#accordionExample"
-            >
-              <div className="accordion-body">
-                Dept of General Thoracic Surgery, Saitama Medical Center Saitama
-                Medical University, Saitama, Japan
-              </div>
-            </div>
-          </div>
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingThree">
-              <button
-                className="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                Dr. Akshath. U. S
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              className="accordion-collapse collapse"
-              aria-labelledby="headingThree"
-              data-bs-parent="#accordionExample"
-            >
-              <div className="accordion-body">
-                Scientist Grade-II Nitte University Centre for Science Education
-                and Research-NUCSER, Mangalore
-              </div>
-            </div>
-          </div>
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingThree">
-              <button
-                className="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                Dr. Partha Palit
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              className="accordion-collapse collapse"
-              aria-labelledby="headingThree"
-              data-bs-parent="#accordionExample"
-            >
-              <div className="accordion-body">
-                Assistant Professor Dept. of Pharmaceutical Sciences Drug
-                discovery research laboratory, Assam University (A Central
-                University), Silchar-788011, India
-              </div>
-            </div>
-          </div>
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingThree">
-              <button
-                className="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                Dr.Priya Suboj
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              className="accordion-collapse collapse"
-              aria-labelledby="headingThree"
-              data-bs-parent="#accordionExample"
-            >
-              <div className="accordion-body">
-                Assistant Professor, Department of Botany and Biotechnology, St.
-                Xaviers College, Thumba, Thiruvananthapuram
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
       <Footer />
