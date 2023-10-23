@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/footer";
 
 const Gallery = () => {
+  
   return (
     <div>
       <Navbar />
