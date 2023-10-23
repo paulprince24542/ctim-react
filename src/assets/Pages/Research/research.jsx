@@ -12,6 +12,14 @@ const Research = () => {
       <Navbar />
       <div className="research-section">
         <div className="container">
+          <hr />
+          <div className="row">
+            <div className="col-xs-12 research-heading">
+              <h3>Research <span style={{color:"red"}}>Materials</span></h3>
+              <h4>Read our awesome and expert research papers</h4>
+            </div>
+          </div>
+          <hr />
           <div className="row">
             <div className="col-md-6">
               <div className="research-images">

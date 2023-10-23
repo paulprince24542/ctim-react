@@ -7,6 +7,18 @@ const Gallery = () => {
   return (
     <div>
       <Navbar />
+      <div className="container">
+        <hr />
+        <div className="row">
+          <div className="col-xs-12 research-heading">
+            <h3>
+              Our <span style={{ color: "red" }}>Gallery</span>
+            </h3>
+            <h4>Capturing Moments And Creating Memories</h4>
+          </div>
+        </div>
+        <hr />
+      </div>
       <div className="container images-section">
         <div className="row justify-content-between mt-5">
           <div className="col-md-3 g-box-1">

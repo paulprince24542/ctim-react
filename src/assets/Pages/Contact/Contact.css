@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px) {
+  .contact-section {
+    padding: 30px;
+    background-color: rgb(246, 247, 247);
+  }
+  .contact-section h3 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact-section {
+    padding: 10px 250px 20px 250px;
+  }
+  .contact-section input {
+    margin-top: 40px;
+  }
+  .contact-section textarea {
+    margin-top: 40px;
+  }
+}
+
+.send-btn {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.contact-section h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+iframe{
+    margin-top: 50px;
+}

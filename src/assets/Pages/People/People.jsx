@@ -24,7 +24,7 @@ const People = () => {
     {
       name: "Hima Xavier",
       img: "https://cdn.discordapp.com/attachments/1164613528922103960/1164615451905642596/Hima_Xavier.jpg?ex=6543dba9&is=653166a9&hm=27fa59201525c641b77b3e39c405cd61342178f256853f733865089af4484d6f&",
-      email: "athira.gireesh@mic.ac.in",
+      email: "hima.xavier@mic.ac.in",
       desc: `I joined the CTIM lab in 2019 after obtaining
       Joint-CSIR-UGC-JRF,and upgraded to SRF in 2022.
       I have done my graduation and postgraduation in
@@ -38,7 +38,7 @@ const People = () => {
     {
       name: "Juvin Ann Thomas",
       img: "https://cdn.discordapp.com/attachments/1164613528922103960/1164615453524635839/Juvin_Ann_Thomas.jpg?ex=6543dba9&is=653166a9&hm=d995d84fd11046ce0b2f5c3ad614d7b2bbeea8aaec01fbf8d760cf3db5f08efc&",
-      email: "hima.xavier@mic.ac.in",
+      email: "juvin.thomas@mic.ac.in",
       desc: `I joined the CTIM lab in 2020 after obtaining
       Joint-CSIR-UGC-JRF and upgraded to SRF in 2023.
       I have done my graduation and postgraduation in
@@ -53,7 +53,7 @@ const People = () => {
     {
       name: "Emmanuel Biju",
       img: "https://cdn.discordapp.com/attachments/1164613528922103960/1164615451595259904/EMMANUEL_BIJU.jpg?ex=6543dba9&is=653166a9&hm=b1d0d48a53631defb2fd2126fbe2edf822180edea2222840525f2ede737b85e1&",
-      email: "hima.xavier@mic.ac.in",
+      email: "emmanuel.biju@mic.ac.in",
       desc: `I joined the CTIM in 2023 after obtaining INSPIRE-JRF. I had
       my graduation from Mar Ivanios College, Thiruvananthapuram,
       and post-graduated from the University of Kerala, Kariavattom
@@ -65,7 +65,7 @@ const People = () => {
     {
       name: "Arya. S",
       img: "https://cdn.discordapp.com/attachments/1164613528922103960/1164615450936758394/ARYA._S.jpg?ex=6543dba9&is=653166a9&hm=c884b7d8d485cadc23426d8a468bda4b4d13cea1e321bf823400f0a9140c032b&",
-      email: "hima.xavier@mic.ac.in",
+      email: "aryameera97@gmail.com",
       desc: `I joined the CTIM in 2023 after obtaining JOINT-CSIR-UGC-JRF.
       I had my graduation from NSS College, Cherthala, Alappuzha, and
       post-graduated from SD College, Alappuzha. My work here at
@@ -77,7 +77,7 @@ const People = () => {
     {
       name: "Arya. B",
       img: "https://cdn.discordapp.com/attachments/1164613528922103960/1164615454703239269/ARYA_B.jpg?ex=6543dba9&is=653166a9&hm=2039e033aa4449011ea9dcc0d9c03dce34b4e90dd4d9a2b3f8eb6be3521f3399&",
-      email: "hima.xavier@mic.ac.in",
+      email: "aryaraj339@gmail.com",
       desc: `I joined the CTIM in 2023 after obtaining JOINT-CSIR-UGC-
       JRF. I had my graduation from MG College,
       Thiruvananthapuram, and post-graduated from SN college,
@@ -158,7 +158,11 @@ const People = () => {
                 ultimate goal is to make a difference in the lives of cancer
                 patients.
               </p>
-              <a href="https://cdn.discordapp.com/attachments/1164613528922103960/1164627847361601676/Suboj_CV.pdf?ex=6543e734&is=65317234&hm=87d273391032b7db40146b16420f6fd46a13d20094eaeda3d381965c3cc66270&">Get My Resume</a>
+              <a href="https://cdn.discordapp.com/attachments/1164613528922103960/1164627847361601676/Suboj_CV.pdf?ex=6543e734&is=65317234&hm=87d273391032b7db40146b16420f6fd46a13d20094eaeda3d381965c3cc66270&">
+                Get My Resume
+              </a>
+              <br />
+              <p>Email : suboj.babykutty@mic.ac.in</p>
             </div>
           </div>
           <hr />

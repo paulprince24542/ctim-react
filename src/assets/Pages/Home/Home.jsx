@@ -88,7 +88,7 @@ const Home = () => {
                     <h5 className="card-title">{data.head}</h5>
                     <p className="card-text">{data.desc}</p>
                     <center>
-                      <button className="card-btn">Go Somwhere</button>
+                      <button className="card-btn">Go Somewhere</button>
                     </center>
                   </div>
                 </div>
