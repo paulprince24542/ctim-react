@@ -3,7 +3,7 @@ import "./Publications.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/footer";
 
-export default function publications() {
+function Publications() {
   const books = [
     {
       id: 1,
@@ -219,3 +219,5 @@ export default function publications() {
     </div>
   );
 }
+
+export default Publications;

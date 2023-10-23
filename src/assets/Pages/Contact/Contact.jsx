@@ -53,9 +53,9 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container map-section">
         <h3 className="mt-4">
-          Google Map<span style={{ color: "red" }}> Directions</span>
+          GOOGLE MAP<span style={{ color: "red" }}> DIRECTIONS</span>
         </h3>
         <div className="row">
           <div className="col-12 d-flex align-items-center justify-content-center mb-5">
