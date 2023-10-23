@@ -15,7 +15,9 @@ const Research = () => {
           <hr />
           <div className="row">
             <div className="col-xs-12 research-heading">
-              <h3>Research <span style={{color:"red"}}>Materials</span></h3>
+              <h3>
+                Research <span style={{ color: "red" }}>Materials</span>
+              </h3>
               <h4>Read our awesome and expert research papers</h4>
             </div>
           </div>
@@ -25,23 +27,38 @@ const Research = () => {
               <div className="research-images">
                 <div className="t1">
                   <div className="box-1 tb">
-                    <img src="./assets/images/collage-1/R6.png" alt="" />
+                    <img
+                      src="https://cdn.discordapp.com/attachments/1164613528922103960/1166090309097246820/R6.png?ex=6549393a&is=6536c43a&hm=7b24272eb669a93fb181daa136ef362dacca1322c987c0b7cb74bd0eaf0558ab&"
+                      alt=""
+                    />
                   </div>
                   <div className="box-2 tb">
-                    <img src="./assets/images/collage-1/R7.png" alt="" />
+                    <img
+                      src="https://cdn.discordapp.com/attachments/1164613528922103960/1166090309386633327/R7.png?ex=6549393a&is=6536c43a&hm=08cd3deaa1143e8be379bacb824040e301a02c5dba4908161d2a03016165f1a8&"
+                      alt=""
+                    />
                   </div>
                 </div>
                 <div className="t1">
                   <div className="box-3 tb">
-                    <img src="./assets/images/collage-1/R8.png" alt="" />
+                    <img
+                      src="https://cdn.discordapp.com/attachments/1164613528922103960/1166090309722189824/R8.png?ex=6549393a&is=6536c43a&hm=174630fd2b882a55c156c72f87202b4ef1a75172ecc5b615d1fda34592881e0c&"
+                      alt=""
+                    />
                   </div>
                   <div className="box-4 tb">
-                    <img src="./assets/images/collage-1/R9.png" alt="" />
+                    <img
+                      src="https://cdn.discordapp.com/attachments/1164613528922103960/1166090309973835836/R9.png?ex=6549393a&is=6536c43a&hm=0a4ffbda14b960745567feb191b46d0584ab248f7c5922c09d939c0ece503cb1&"
+                      alt=""
+                    />
                   </div>
                 </div>
                 <div className="t1">
                   <div className="box-3 tb">
-                    <img src="./assets/images/collage-1/R10.png" alt="" />
+                    <img
+                      src="https://cdn.discordapp.com/attachments/1164613528922103960/1166090310317781022/R10.png?ex=6549393a&is=6536c43a&hm=67713c09604781a30ffad3ed8d44774eea1bd71ea8bbbc227a225287c3d1840c&"
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>
@@ -123,9 +140,7 @@ const Research = () => {
                 aria-labelledby="flush-headingOne"
                 data-bs-parent="#accordionFlushExample"
               >
-                <div class="accordion-body">
-                 {data.desc}
-                </div>
+                <div class="accordion-body">{data.desc}</div>
               </div>
             </div>
           ))}

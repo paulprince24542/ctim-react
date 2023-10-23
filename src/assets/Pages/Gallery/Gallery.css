@@ -27,7 +27,7 @@
   .g-box-1 img:hover,
   .g-box-2 img:hover {
     transform: scale(1.1);
-    border-radius: 20px;
+    /* border-radius: 20px; */
     /* opacity: 0.3; */
   }
 }
@@ -51,6 +51,7 @@
   height: 500px;
   margin-bottom: 20px;
   overflow: hidden;
+  /* border-radius: 20px; */
 }
 
 .g-box-2 {
@@ -58,7 +59,7 @@
   margin-bottom: 20px;
   overflow: hidden;
 }
-
+/* 
 .g-box-1:hover {
   border-radius: 20px;
   transition: 0.3s;
@@ -66,4 +67,4 @@
 .g-box-2:hover {
   border-radius: 20px;
   transition: 0, 3s;
-}
+} */

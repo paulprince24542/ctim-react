@@ -32,7 +32,7 @@ const Gallery = () => {
             <div className="row">
               <div className="col-md-12 g-box-2">
                 <img
-                  src="./assets/images/gallery/8.png"
+                  src="./assets/images/gallery/9.png"
                   className="col-md-12 img-box"
                   alt=""
                 />
@@ -50,7 +50,7 @@ const Gallery = () => {
             <div className="row">
               <div className="col-md-12 g-box-2">
                 <img
-                  src="./assets/images/gallery/12.png"
+                  src="./assets/images/gallery/8.png"
                   className="col-md-12 img-box"
                   alt=""
                 />
@@ -109,7 +109,7 @@ const Gallery = () => {
               </div>
               <div className="col-md-12 g-box-2">
                 <img
-                  src="./assets/images/gallery/9.png"
+                  src="./assets/images/gallery/12.png"
                   className="col-md-12 img-box"
                   alt=""
                 />

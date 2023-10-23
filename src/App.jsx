@@ -11,6 +11,8 @@ import Gallery from "./assets/Pages/Gallery/Gallery";
 import Research from "./assets/Pages/Research/research";
 // import Publications from "./assets/Pages/publications/publications";
 import Publication from "./assets/Pages/Publication/Publication";
+import Opportunity from "./assets/Pages/Opportunities/Opportunity";
+import News from "./assets/Pages/News/News";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path="/research" element={<Research />} />
         {/* <Route path="/publications" element={<Publications />} /> */}
         <Route path="/publications" element={<Publication />} />
+        <Route path="/opportunity" element={<Opportunity />} />
+        <Route path="/news" element={<News />} />
       </Routes>
     </Router>
   );

@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="footer-cta">
             <div className="row">
               <div className="col-md-4">
-                <div className="cta-text">
+                {/* <div className="cta-text">
                   <i class="fa-solid fa-location-dot fa-2xl"></i>
                   <div>
                     <h4>Find Us</h4>
@@ -26,11 +26,20 @@ const Footer = () => {
                     <span>Thiruvanathapuram - 695015 Kerala, India.</span>
                     <br />
                   </div>
+                </div> */}
+                <div className="cta-text">
+                  <i className="fa-solid fa-location-dot fa-2xl"></i>
+                  <div>
+                    <h4>Find Us</h4>
+                    <span>
+                      Centre for Tumor Immunology and Microenvironment
+                    </span>
+                  </div>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="cta-text">
-                  <i class="fa-solid fa-phone fa-2xl"></i>
+                  <i className="fa-solid fa-phone fa-2xl"></i>
                   <div>
                     <h4>Call Us</h4>
                     <span>+91-9995068223</span>
@@ -39,7 +48,7 @@ const Footer = () => {
               </div>
               <div className="col-md-4">
                 <div className="cta-text">
-                  <i class="fa-solid fa-paper-plane fa-2xl"></i>
+                  <i className="fa-solid fa-paper-plane fa-2xl"></i>
                   <div>
                     <h4>Mail</h4>
                     <span>suboj.babykutty@mic.ac.in</span>
@@ -67,16 +76,16 @@ const Footer = () => {
                 <div className="footer-social-icon">
                   <span>Follow us</span>
                   <a href="https://business.facebook.com/CTIM-Centre-for-Tumor-Immunology-and-Microenvironment-107954435232014">
-                    <i class="fa-brands fa-facebook fa-xl"></i>
+                    <i className="fa-brands fa-facebook fa-xl"></i>
                   </a>
                   <a href="https://twitter.com/CTIM12885237">
-                    <i class="fa-brands fa-twitter fa-xl"></i>
+                    <i className="fa-brands fa-twitter fa-xl"></i>
                   </a>
                   <a href="https://www.instagram.com/ctimmic09/">
-                    <i class="fa-brands fa-instagram fa-xl"></i>
+                    <i className="fa-brands fa-instagram fa-xl"></i>
                   </a>
                   <a href="https://www.linkedin.com/in/ctim-centre-for-tumor-immunology-0b81ab239/">
-                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                    <i className="fa-brands fa-linkedin fa-xl"></i>
                   </a>
                 </div>
               </div>

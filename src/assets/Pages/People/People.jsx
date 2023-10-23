@@ -111,11 +111,11 @@ const People = () => {
         <div className="container">
           <div className="row t1">
             <div className="col-xs-12 col-md-6 team-image-box">
-              <img src="./assets/images/team/pi/p1.jpeg" alt="" />
+              <img src="https://cdn.discordapp.com/attachments/1164613528922103960/1166090978311024640/p1.jpeg?ex=654939da&is=6536c4da&hm=a121249b1942d3ddfc2e779f8af429220e7f604c9f3b3539872bd6ca5f6730c7&" alt="" />
               <h4>Dr. Suboj Babykutty</h4>
               <h6>Principal Investigator, PhD</h6>
               <div className="schoolar-images">
-                <img src="./assets/images/team/pi/ORCID ID.jpg" alt="" />
+                <img src="https://cdn.discordapp.com/attachments/1164613528922103960/1166091211409465385/ORCID_ID.jpg?ex=65493a11&is=6536c511&hm=0e342f2fa719e30019f61ce83b96dcd41f5715159435a15188a39a77ddc68a70&" alt="" />
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/1/14/ORCID_logo.svg"
                   alt=""
