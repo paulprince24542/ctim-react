@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px) {
-  research-heading h4 {
+  .research-heading h4 {
     text-align: center;
   }
 }
