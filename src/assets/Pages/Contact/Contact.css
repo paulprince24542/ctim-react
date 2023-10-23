@@ -1,7 +1,11 @@
 @media only screen and (max-width: 600px) {
   .contact-section {
-    padding: 30px;
+    padding: 10px 90px 10px 90px;
     background-color: rgb(246, 247, 247);
+  }
+
+  .contact-section input{
+    height: 45px;
   }
   .contact-section h3 {
     margin-top: 20px;
@@ -32,10 +36,10 @@
 }
 
 .map-section h3 {
-    text-transform: uppercase;
-    font-weight: bold;
-  }
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
-iframe{
-    margin-top: 50px;
+iframe {
+  margin-top: 30px;
 }
