@@ -1,9 +1,9 @@
 import React from "react";
-import "./Publications.css";
+import "./Publication.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/footer";
 
-function Publications() {
+function Publication() {
   const books = [
     {
       id: 1,
@@ -220,4 +220,4 @@ function Publications() {
   );
 }
 
-export default Publications;
+export default Publication;

@@ -10,6 +10,7 @@ import People from "./assets/Pages/People/People";
 import Gallery from "./assets/Pages/Gallery/Gallery";
 import Research from "./assets/Pages/Research/research";
 // import Publications from "./assets/Pages/publications/publications";
+import Publication from "./assets/Pages/Publication/Publication";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/research" element={<Research />} />
         {/* <Route path="/publications" element={<Publications />} /> */}
+        <Route path="/publications" element={<Publication />} />
       </Routes>
     </Router>
   );
