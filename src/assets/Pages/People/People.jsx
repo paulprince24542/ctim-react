@@ -156,11 +156,17 @@ const People = () => {
                 ultimate goal is to make a difference in the lives of cancer
                 patients.
               </p>
-              <a href="https://cdn.discordapp.com/attachments/1164613528922103960/1164627847361601676/Suboj_CV.pdf?ex=6543e734&is=65317234&hm=87d273391032b7db40146b16420f6fd46a13d20094eaeda3d381965c3cc66270&">
+              <a className="resume" href="https://cdn.discordapp.com/attachments/1164613528922103960/1164627847361601676/Suboj_CV.pdf?ex=6543e734&is=65317234&hm=87d273391032b7db40146b16420f6fd46a13d20094eaeda3d381965c3cc66270&">
                 Get My Resume
               </a>
               <br />
-              <p>Email : suboj.babykutty@mic.ac.in</p>
+              <p>
+                Email :{" "}
+                <a href="mailto:suboj.babykutty@mic.ac.in">
+                  {" "}
+                  suboj.babykutty@mic.ac.in
+                </a>
+              </p>
             </div>
           </div>
           <hr />
@@ -174,7 +180,9 @@ const People = () => {
                 </div>
                 <div className="col-xs-12 col-md-6 team-content-box-child">
                   <p>{data.desc}</p>
-                  <p>Email : {data.email} </p>
+                  <p>
+                    Email : <a href={"mailto:" + data.email}>{data.email}</a>
+                  </p>
                 </div>
               </div>
               <hr />

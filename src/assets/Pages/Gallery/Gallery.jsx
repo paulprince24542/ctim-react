@@ -116,6 +116,7 @@ const Gallery = () => {
               </div>
             </div>
           </div>
+
           <div className="col-md-3 g-box-1">
             <img
               src="./assets/images/gallery/11.png"
@@ -123,6 +124,24 @@ const Gallery = () => {
               alt=""
             />
           </div>
+        </div>
+        <div className="row mb-3">
+          <div className="col-md-3"></div>
+          <div className="col-md-3 g-box-2">
+            <img
+              src="./assets/images/gallery/14.jpg"
+              className="col-md-12 img-box"
+              alt=""
+            />
+          </div>
+          <div className="col-md-3 g-box-2">
+            <img
+              src="./assets/images/gallery/15.JPG"
+              className="col-md-12 img-box"
+              alt=""
+            />
+          </div>
+          <div className="col-md-3"></div>
         </div>
       </div>
       <Footer />

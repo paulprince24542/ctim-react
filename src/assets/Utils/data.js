@@ -5,6 +5,13 @@ var collaboratorData = [
     desc: `Associate Professor, Radiation Oncology,\ Harvard Medical School\
     Director of Translational Research, \Investigator, Radiation\
     Oncology/Steele Laboratories, Massachusetts General Hospital`,
+    link: "https://www.dfhcc.harvard.edu/insider/member-detail/member/dan-g-duda/",
+  },
+  {
+    id: "a9",
+    name: "Santhosh Kumar T.R., PhD",
+    desc: `Scientist G Rajiv Gandhi Centre for Biotechnology Thiruvananthapuram`,
+    link: "https://www.rgcb.res.in/trsanthosh",
   },
   {
     id: "a2",
@@ -15,6 +22,7 @@ var collaboratorData = [
     Priyadarshini Hills P. O.
     Kottayam, Kerala, India-686 560
     `,
+    link: "http://www.sabuthomas.com/",
   },
   {
     id: "a3",
@@ -24,8 +32,9 @@ var collaboratorData = [
     BSB2112, BSB Building,
     Indian Institute of Science Education and Research, Thiruvananthapuram, 
     Maruthamala PO, Vithura, 
-    Thiruvananthapuram - 695551, Kerala, INDIA.
+    Thiruvananthapuram - 695551, Kerala, INDIA. 
     `,
+    link: "https://www.iisertvm.ac.in/faculty/sms/research_sms",
   },
   {
     id: "a4",
@@ -35,6 +44,7 @@ var collaboratorData = [
     Thiruvananthapuram
     Kerala    
     `,
+    link: "https://www.rcctvm.gov.in/department-cancer-research.php",
   },
   {
     id: "a5",
@@ -42,6 +52,7 @@ var collaboratorData = [
     desc: `Dept of General Thoracic Surgery, Saitama Medical Center 
     Saitama Medical University, Saitama, Japan    
     `,
+    link: "https://www.researchgate.net/profile/Tai-Hato/4",
   },
   {
     id: "a6",
@@ -49,6 +60,7 @@ var collaboratorData = [
     desc: `Scientist Grade-II
     Nitte University Centre for Science Education and Research-NUCSER, Mangalore    
     `,
+    link: "https://www.linkedin.com/in/akshath-akshu-1580a916/",
   },
   {
     id: "a7",
@@ -57,6 +69,7 @@ var collaboratorData = [
     Dept. of Pharmaceutical Sciences Drug discovery research laboratory, Assam University 
     (A Central University), Silchar-788011, India    
     `,
+    link: "https://aus.irins.org/profile/107899",
   },
   {
     id: "a8",
@@ -65,6 +78,7 @@ var collaboratorData = [
     Department of Botany and Biotechnology, 
     St. Xaviers College, Thumba, Thiruvananthapuram       
     `,
+    link: "https://ww.stxaviersthumba.org/faculty/149/priya-suboj",
   },
 ];
 

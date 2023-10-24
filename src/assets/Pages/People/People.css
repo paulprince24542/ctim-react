@@ -29,7 +29,7 @@
     margin-top: 20px;
   }
 
-  .team-content-box a {
+  .resume {
     margin-left: 40px;
     background-color: rgb(204, 65, 88);
     padding: 15px 15px;
@@ -38,7 +38,7 @@
     border-radius: 10px;
   }
 
-  .team-content-box a:hover {
+  .resume:hover {
     background-color: rgb(37, 179, 136);
   }
   .schoolar-images {
@@ -100,7 +100,7 @@
     background-color: rgb(255, 255, 255);
     margin-bottom: 20px;
   }
-  .team-content-box a {
+  .resume{
     margin-left: 15px;
   }
 }
@@ -148,7 +148,7 @@
   margin-top: 20px;
 }
 
-.team-content-box a {
+.resume {
   background-color: rgb(204, 65, 88);
   padding: 15px 15px;
   color: white;
@@ -157,7 +157,7 @@
   text-decoration: none;
 }
 
-.team-content-box a:hover {
+.resume:hover {
   background-color: rgb(37, 179, 136);
 }
 .schoolar-images {

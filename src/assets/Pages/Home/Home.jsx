@@ -9,10 +9,12 @@ import Footer from "../../components/Footer/footer";
 const Home = () => {
   var cardData = [
     {
-      img: "/assets/images/cards/C1.jpg",
-      head: "Find CTIM publications here !",
-      desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      link: "/publications",
+      img: "/assets/images/cards/C3.jpg",
+      head: "Research Materials from CTIM Lab",
+      desc: `CTIM trying to explore pro inflammatory adipokine chemokine axis
+      in obese BC, which suppresses immune surveillance in tumor
+      microenvironment.`,
+      link: "/research",
     },
     {
       img: "/assets/images/cards/C2.png",
@@ -22,13 +24,12 @@ const Home = () => {
       2023.`,
       link: "/news",
     },
+
     {
-      img: "/assets/images/cards/C3.jpg",
-      head: "Research Materials from CTIM Lab",
-      desc: `CTIM trying to explore pro inflammatory adipokine chemokine axis
-      in obese BC, which suppresses immune surveillance in tumor
-      microenvironment.`,
-      link: "/research",
+      img: "/assets/images/cards/C1.jpg",
+      head: "Find CTIM publications here !",
+      desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      link: "/publications",
     },
   ];
 

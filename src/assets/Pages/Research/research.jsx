@@ -148,7 +148,11 @@ const Research = () => {
                 aria-labelledby="flush-headingOne"
                 data-bs-parent="#accordionFlushExample"
               >
-                <div className="accordion-body">{data.desc}</div>
+                <div className="accordion-body">
+                  {data.desc}
+                  
+                </div>
+                <a className="visit" href={data.link}>Visit Profile</a>
               </div>
             </div>
           ))}

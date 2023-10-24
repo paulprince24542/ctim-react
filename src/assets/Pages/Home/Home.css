@@ -16,34 +16,32 @@
 
   .about-content {
     /* padding-top: 40px; */
-    
+
     text-align: center;
   }
 
-  .about-content h2{
+  .about-content h2 {
     margin-top: 20px;
   }
 
   .card-box-1 {
-    background-color: rgb(238, 229, 229);
+    background-color: #73828b;
     width: 350px;
     /* border: 1px solid black; */
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px;
     transition: 0.2s;
-    margin-bottom: 20px;
+    padding-bottom: 30px;
     margin: auto;
-    padding: 20px;
   }
 
   .card-box-1 img {
     width: 100%;
     height: 100%;
-    padding: 10px;
   }
+
   .card-section {
     margin-bottom: 20px;
   }
@@ -58,13 +56,12 @@
     padding: 10px;
     color: black;
   }
-  .t-box{
+  .t-box {
     padding-top: 40px;
-    
   }
 }
 @media only screen and (min-width: 600px) {
-  .about-wrapper{
+  .about-wrapper {
     margin-top: 100px;
   }
   .card-section {
@@ -79,7 +76,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px;
     transition: 0.2s;
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -88,7 +84,6 @@
   .card-box-1 img {
     width: 100%;
     height: 100%;
-    
   }
   .card-section {
     margin-bottom: 20px;
@@ -107,7 +102,7 @@
     padding: 20px;
   }
 
-  .t-box{
+  .t-box {
     padding-top: 40px;
   }
 }
@@ -126,7 +121,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px;
     transition: 0.2s;
     margin-bottom: 20px;
   }
@@ -169,7 +163,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px;
     transition: 0.2s;
     margin-bottom: 20px;
   }
@@ -221,7 +214,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px;
     transition: 0.2s;
   }
 
@@ -319,7 +311,6 @@ p {
 
 .about-image img {
   width: 500px;
-  border-radius: 20px;
 }
 
 .btn {
