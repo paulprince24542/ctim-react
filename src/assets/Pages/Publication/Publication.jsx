@@ -96,12 +96,21 @@ function Publication() {
     {
       id: 11,
       header:
+        "Enhancement of immune surveillance in breast cancer by targeting hypoxic tumor endothelium: Can it be an immunological switch point?",
+      desc: ` Babykutty S, Thomas JA, GM AG, Xavier H, Suboj P, Gupta G, PALIT P. Enhancement of
+      immune surveillance in breast cancer by targeting hypoxic tumor endothelium: Can it be an
+      immunological switch point?. Frontiers in Oncology.;13:818.`,
+      link: ` https://www.frontiersin.org/articles/10.3389/fonc.2023.1063051/full`,
+    },
+    {
+      id: 12,
+      header:
         "Molecular mechanism of emodin action: Transition from laxative ingredient to an antitumor agent",
       desc: ` Srinivas Gopal, S. Babykutty, Priya Prasanna Sathiadevan, priya Srinivas, Molecular mechanism of emodin action: transition from laxative ingredient to an antitumor agent. Med Res Rev. 2007 Sep; 27(5): 591-608`,
       link: ` https://onlinelibrary.wiley.com/doi/abs/10.1002/med.20095`,
     },
     {
-      id: 12,
+      id: 13,
       header:
         "Arginine dependence of tumor cells: targeting a chink in cancer’s armor",
       desc: ` Patil MD, Bhaumik J, Babykutty S, Banerjee UC, Fukumura D. Arginine dependence of tumor cells: targeting a chink in cancer's armor. Oncogene. 2016 Apr 25. doi: 10.1038/onc.2016.37, [Epub ahead of print].`,

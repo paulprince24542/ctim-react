@@ -39,15 +39,7 @@ const People = () => {
       name: "Juvin Ann Thomas",
       img: "https://cdn.discordapp.com/attachments/1164613528922103960/1164615453524635839/Juvin_Ann_Thomas.jpg?ex=6543dba9&is=653166a9&hm=d995d84fd11046ce0b2f5c3ad614d7b2bbeea8aaec01fbf8d760cf3db5f08efc&",
       email: "juvin.thomas@mic.ac.in",
-      desc: `I joined the CTIM lab in 2020 after obtaining
-      Joint-CSIR-UGC-JRF and upgraded to SRF in 2023.
-      I have done my graduation and postgraduation in
-      zoology under Kerala University. My research work
-      at
-      CTIM focuses on targeting chemoattractant
-      cytokines in tumor thereby improve
-      vasculature and enhance immune surveillance
-      in triple negative breast cancer.
+      desc: `I joined the CTIM in 2022 after obtaining Joint-CSIR-UGC-JRF. I had my graduation from Mar Thoma College Thiruvalla and post-graduated from Mar Ivanios College, Tvm. My work here at CTIM focusses on the efficacy of Nano-Immuno therapy based blockade of CXCL-3 —CXCR-2 pathway to improve immune surveillance in obese murine breast cancer model.
       `,
     },
     {
@@ -111,11 +103,17 @@ const People = () => {
         <div className="container">
           <div className="row t1">
             <div className="col-xs-12 col-md-6 team-image-box">
-              <img src="https://cdn.discordapp.com/attachments/1164613528922103960/1166090978311024640/p1.jpeg?ex=654939da&is=6536c4da&hm=a121249b1942d3ddfc2e779f8af429220e7f604c9f3b3539872bd6ca5f6730c7&" alt="" />
+              <img
+                src="https://cdn.discordapp.com/attachments/1164613528922103960/1166090978311024640/p1.jpeg?ex=654939da&is=6536c4da&hm=a121249b1942d3ddfc2e779f8af429220e7f604c9f3b3539872bd6ca5f6730c7&"
+                alt=""
+              />
               <h4>Dr. Suboj Babykutty</h4>
               <h6>Principal Investigator, PhD</h6>
               <div className="schoolar-images">
-                <img src="https://cdn.discordapp.com/attachments/1164613528922103960/1166091211409465385/ORCID_ID.jpg?ex=65493a11&is=6536c511&hm=0e342f2fa719e30019f61ce83b96dcd41f5715159435a15188a39a77ddc68a70&" alt="" />
+                <img
+                  src="https://cdn.discordapp.com/attachments/1164613528922103960/1166091211409465385/ORCID_ID.jpg?ex=65493a11&is=6536c511&hm=0e342f2fa719e30019f61ce83b96dcd41f5715159435a15188a39a77ddc68a70&"
+                  alt=""
+                />
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/1/14/ORCID_logo.svg"
                   alt=""

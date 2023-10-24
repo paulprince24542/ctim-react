@@ -4,7 +4,6 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/footer";
 
 const Gallery = () => {
-  
   return (
     <div>
       <Navbar />
@@ -33,7 +32,7 @@ const Gallery = () => {
             <div className="row">
               <div className="col-md-12 g-box-2">
                 <img
-                  src="./assets/images/gallery/9.png"
+                  src="./assets/images/gallery/13.jpg"
                   className="col-md-12 img-box"
                   alt=""
                 />
@@ -58,7 +57,7 @@ const Gallery = () => {
               </div>
               <div className="col-md-12 g-box-2">
                 <img
-                  src="./assets/images/gallery/4.png"
+                  src="./assets/images/gallery/9.png"
                   className="col-md-12 img-box"
                   alt=""
                 />

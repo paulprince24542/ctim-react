@@ -61,6 +61,14 @@ const Research = () => {
                     />
                   </div>
                 </div>
+                <div className="t1">
+                  <div className="box-3 tb">
+                    <img
+                      src="https://cdn.discordapp.com/attachments/1164613528922103960/1166285507030949969/R6.png?ex=6549ef05&is=65377a05&hm=a95df79a9a3cbc546ba9a9a2fa349fa48ff44236a999191708ad874dfefa1404&"
+                      alt=""
+                    />
+                  </div>
+                </div>
               </div>
             </div>
             <div className="col-md-6">
@@ -119,12 +127,12 @@ const Research = () => {
         <h2>
           Research <span style={{ color: "red" }}>Collabrators</span>
         </h2>
-        <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div className="accordion accordion-flush" id="accordionFlushExample">
           {collaboratorData.map((data) => (
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="flush-headingOne">
                 <button
-                  class="accordion-button collapsed"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target={"#" + data.id}
@@ -136,11 +144,11 @@ const Research = () => {
               </h2>
               <div
                 id={data.id}
-                class="accordion-collapse collapse"
+                className="accordion-collapse collapse"
                 aria-labelledby="flush-headingOne"
                 data-bs-parent="#accordionFlushExample"
               >
-                <div class="accordion-body">{data.desc}</div>
+                <div className="accordion-body">{data.desc}</div>
               </div>
             </div>
           ))}

@@ -41,6 +41,10 @@
     flex-direction: column;
     margin-top: 10px;
   }
+
+  .research-contents {
+    margin-top: 220px;
+  }
   .research-contents h3 {
     margin-top: 50px;
     text-align: center;
@@ -53,7 +57,7 @@
   }
 }
 
-.research-heading{
+.research-heading {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,7 +70,6 @@
   margin-bottom: 10px;
   font-weight: bold;
 }
-
 
 .t1 {
   display: flex;
@@ -97,9 +100,9 @@
 .box-4 {
   margin: 4px;
 }
-.research-contents {
-  margin: 10px;
-}
+/* .research-contents {
+  margin: 30px;
+} */
 
 .research-contents h3 {
   font-family: "Roboto", sans-serif;
@@ -116,6 +119,6 @@
   margin-bottom: 30px;
 }
 
-.accordion-item{
+.accordion-item {
   margin-top: 20px;
 }
