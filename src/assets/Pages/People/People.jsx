@@ -80,6 +80,13 @@ const People = () => {
       in triple negative breast cancer”.
       `,
     },
+    {
+      name: "Gitanjali G",
+      img: "/assets/images/team/Students/Gitanjali G.jpg",
+      email: "gitanjaligigi@gmail.com",
+      desc: `I joined CTIM after obtaining KSCSTE Research Fellowship. I completed my post-graduation from Mar Ivanios College, Thiruvananthapuram. My work at CTIM focuses on “targeting tumour cell metabolism that could improve immune surveillance using murine triple negative breast cancer model”.
+      `,
+    },
   ];
   console.log(peopleData);
 
@@ -156,7 +163,10 @@ const People = () => {
                 ultimate goal is to make a difference in the lives of cancer
                 patients.
               </p>
-              <a className="resume" href="https://cdn.discordapp.com/attachments/1164613528922103960/1164627847361601676/Suboj_CV.pdf?ex=6543e734&is=65317234&hm=87d273391032b7db40146b16420f6fd46a13d20094eaeda3d381965c3cc66270&">
+              <a
+                className="resume"
+                href="https://cdn.discordapp.com/attachments/1164613528922103960/1164627847361601676/Suboj_CV.pdf?ex=6543e734&is=65317234&hm=87d273391032b7db40146b16420f6fd46a13d20094eaeda3d381965c3cc66270&"
+              >
                 Get My Resume
               </a>
               <br />

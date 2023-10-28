@@ -2,6 +2,8 @@ import React from "react";
 
 import "./Home.css";
 
+import Marquee from "react-fast-marquee";
+
 //Import Components
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/footer";
@@ -9,7 +11,7 @@ import Footer from "../../components/Footer/footer";
 const Home = () => {
   var cardData = [
     {
-      img: "/assets/images/cards/C3.jpg",
+      img: "/assets/images/cards/C4.png",
       head: "Research Materials from CTIM Lab",
       desc: `CTIM trying to explore pro inflammatory adipokine chemokine axis
       in obese BC, which suppresses immune surveillance in tumor
@@ -26,7 +28,7 @@ const Home = () => {
     },
 
     {
-      img: "/assets/images/cards/C1.jpg",
+      img: "/assets/images/cards/C5.jpg",
       head: "Find CTIM publications here !",
       desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
       link: "/publications",
@@ -49,6 +51,23 @@ const Home = () => {
         </div>
       </div>
       {/* Video Section End */}
+
+      <Marquee
+        style={{
+          background: "#FCF5ED",
+          padding: "20px",
+          color: "#CE5A67",
+          fontWeight: "bold",
+        }}
+      >
+        CTIM's Dr. Suboj Babykutty Honored with Young Investigator's Award in
+        Biotechnology 2023, CTIM Secures German Patent for Breakthrough in
+        Anti-Cancer Quinoline Derivatives, Harvard Medical School Professor
+        Delivers Erudite Lecture at Mar Ivanios College, Dr. Suboj Babykutty
+        Awarded Prestigious TARE Fellowship for Research Excellence,Dr. Suboj
+        Babykutty Receives Kairali Research Award for Outstanding Scientific
+        Achievement
+      </Marquee>
 
       {/* About Content Start */}
       <div className="about-wrapper">
@@ -103,8 +122,8 @@ const Home = () => {
             <div className="col-md-4 t-box">
               <div className="card-box-1">
                 <img src={data.img} alt="" />
-                <h5 class="card-title">{data.head}</h5>
-                <p class="card-text">{data.desc}</p>
+                <h5 className="card-title">{data.head}</h5>
+                <p className="card-text">{data.desc}</p>
                 <a href={data.link} className="btn btn-primary">
                   Go Somewhere
                 </a>

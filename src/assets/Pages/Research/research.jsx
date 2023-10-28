@@ -18,7 +18,7 @@ const Research = () => {
               <h3>
                 Research <span style={{ color: "red" }}>Materials</span>
               </h3>
-              <h4>Read our awesome and expert research papers</h4>
+              {/* <h4>Read our awesome and expert research papers</h4> */}
             </div>
           </div>
           <hr />
@@ -150,9 +150,13 @@ const Research = () => {
               >
                 <div className="accordion-body">
                   {data.desc}
-                  
+                  <div className="accordion-image">
+                    <img src={data.imgurl} alt="" />
+                  </div>
                 </div>
-                <a className="visit" href={data.link}>Visit Profile</a>
+                <a className="visit  btn btn-primary" href={data.link}>
+                  Visit Profile
+                </a>
               </div>
             </div>
           ))}

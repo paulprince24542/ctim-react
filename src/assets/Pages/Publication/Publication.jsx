@@ -11,6 +11,16 @@ function Publication() {
       desc: "K, Vijayakumaran Nair Ph.D., M Jayaprakash, R.AshaDevi Ph.D, Suboj Babykutty, Ph.D. ISBN: 978-81-952407-0-8",
       link: "",
     },
+    {
+      id: 22,
+      header: `Polymeric Materials for Biomedical Implants
+      Characterization, Properties, and Applications
+      `,
+      desc: `
+      1st Edition - October 3, Editors: Sabu Thomas, Abhimanyu Tharayil, 2023 Paperback ISBN: 9780323996907
+      `,
+      link: "",
+    },
   ];
   const publicationData = [
     {
@@ -136,30 +146,32 @@ function Publication() {
       <div className="container mb-3">
         <h3 className="mt-5 section-heads">Books</h3>
         <div class="accordion accordion-flush" id="accordionFlushExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target={"#collapse" + books[0].id}
-                aria-expanded="false"
-                aria-controls="flush-collapseOne"
+          {books.map((data) => (
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target={"#collapse" + data.id}
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  {data.header}
+                </button>
+              </h2>
+              <div
+                id={"collapse" + data.id}
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
               >
-                {books[0].header}
-              </button>
-            </h2>
-            <div
-              id={"collapse" + books[0].id}
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                <p>{books[0].desc}</p>
-                <a href={books[0].link}>Visit Link</a>
+                <div class="accordion-body">
+                  <p>{data.desc}</p>
+                  {/* <a href={data.link}>Visit Link</a> */}
+                </div>
               </div>
             </div>
-          </div>
+          ))}
         </div>
         <h3 className="mt-5 mb-5  section-heads">Publications</h3>
         <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -184,7 +196,13 @@ function Publication() {
               >
                 <div class="accordion-body">
                   <p>{data.desc}</p>
-                  <a href={data.link}>Visit Link</a>
+                  <a
+                    href={data.link}
+                    className="btn btn-primary"
+                    style={{ width: "150px" }}
+                  >
+                    Read Publication{" "}
+                  </a>
                 </div>
               </div>
             </div>
@@ -216,7 +234,13 @@ function Publication() {
                 >
                   <div class="accordion-body">
                     <p>{data.desc}</p>
-                    <a href={data.link}>Visit Link</a>
+                    <a
+                      href={data.link}
+                      className="btn btn-success"
+                      style={{ width: "150px" }}
+                    >
+                      Read Reviews
+                    </a>
                   </div>
                 </div>
               </div>

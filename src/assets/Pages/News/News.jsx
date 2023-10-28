@@ -29,34 +29,84 @@ export default function News() {
             />
           </div>
           <div className="col-md-6 news-content">
+            <h3>
+              CTIM's Dr. Suboj Babykutty Honored with Young Investigator's Award
+              in Biotechnology 2023
+            </h3>
             <p>
-              <p>
-                Another achievement for CTIM: The PI, Dr. Suboj Babykutty got
-                awarded the Young Investigator's Programme in
-                Biotechnology 2023.
-              </p>
+              Another achievement for CTIM: The PI, Dr. Suboj Babykutty got
+              awarded the Young Investigator's Programme in Biotechnology 2023.
             </p>
           </div>
         </div>
+
         <div className="row section-2">
           <div className="col-md-6 news-content-2">
+            <h3>
+              CTIM Secures German Patent for Breakthrough in Anti-Cancer
+              Quinoline Derivatives
+            </h3>
             <p>
-              <p>
-                Dr. Dan Gabriel Duda, Associate Professor, Massachusetts General
-                Hospital, Harvard MedicalSchool, Boston, USA, delivering Erudite
-                Lecture in Mar Ivanios College, Thiruvananthapuram
-              </p>
+              In a groundbreaking achievement, the Center for Therapeutic
+              Innovations in Medicine (CTIM) has been granted a valuable German
+              patent for its pioneering work in detailing the remarkable
+              anti-cancer properties of synthetic quinoline derivatives. This
+              patent recognition underscores the institute's significant
+              contributions to cancer research and marks a significant step
+              forward in the development of potential cancer-fighting
+              treatments. CTIM's innovative approach and dedication to advancing
+              medical science are now poised to make a profound impact on the
+              field of oncology
             </p>
           </div>
           <div className="col-md-6 image-section">
             <img
               className="news-image-1"
-              src="./assets/images/news/3.png"
+              src="./assets/images/news/4.jpg"
               alt=""
             />
           </div>
         </div>
+
         <div className="row section-1">
+          <div className="col-md-6 image-section">
+            <img
+              className="news-image-1"
+              src="./assets/images/news/3.JPG"
+              alt=""
+            />
+          </div>
+
+          <div className="col-md-6 news-content">
+            <h3>
+              Harvard Medical School Professor Delivers Erudite Lecture at Mar
+              Ivanios College
+            </h3>
+            <p>
+              Dr. Dan Gabriel Duda, Associate Professor, Massachusetts General
+              Hospital, Harvard MedicalSchool, Boston, USA, delivering Erudite
+              Lecture in Mar Ivanios College, Thiruvananthapuram
+            </p>
+          </div>
+        </div>
+        <div className="row section-2">
+          <div className="col-md-6 news-content-2">
+            <h3>
+              Dr. Suboj Babykutty Awarded Prestigious TARE Fellowship for
+              Research Excellence
+            </h3>
+
+            <p>
+              Dr. Suboj Babykutty, an Assistant Professor in the Department of
+              Zoology, has been honored with the Teachers Associateship for
+              Research Excellence (TARE) by the Department of Science and
+              Technology - Science and Engineering Research Board (DST-SERB) of
+              the Government of India, with a grant of 18.3 lakhs. Dr. Babykutty
+              is currently engaged in collaborative research with the School of
+              Biological Science at IISER, Thiruvananthapuram, marking a
+              significant milestone in his academic and research career.
+            </p>
+          </div>
           <div className="col-md-6 image-section">
             <img
               className="news-image-1"
@@ -64,39 +114,31 @@ export default function News() {
               alt=""
             />
           </div>
-          <div className="col-md-6 news-content">
-            <p>
-              <p>
-                Dr Suboj Babykutty, Assistant Professor, Department of Zoology,
-                has been awarded Teachers Associateship for Research Excellence
-                (TARE) from DST-SERB, Govt of India (18.3 lakhs). He is working
-                in collaboration with School of Biological Science, IISER,
-                Thiruvananthapuram.
-              </p>
-            </p>
-          </div>
         </div>
-        <div className="row section-2">
-          <div className="col-md-6 news-content-2">
-            <p>
-              <p>
-                Dr. Suboj Babykutty, Assistant Professor, Department of Zoology,
-                has won the Kairali Research Award (Gaveshana Puraskaram)
-                instituted by the Government of Kerala, awarded to Faculty
-                members of Universities or Colleges of Kerala, in the areas of
-                Chemical Science/Physical Science/Biological Science/Social
-                Science/Arts and Humanities, excelled in research/pursuing
-                research in cutting edge areas. The award carries an amount of
-                Rs. One lakh and a Research grant of Rs. Twenty Four lakhs.
-              </p>
-            </p>
-          </div>
+        <div className="row section-1">
           <div className="col-md-6 image-section">
-            <img
+          <img
               className="news-image-1"
               src="./assets/images/news/1.png"
               alt=""
             />
+          </div>
+
+          <div className="col-md-6 news-content">
+          <h3>
+              Dr. Suboj Babykutty Receives Kairali Research Award for
+              Outstanding Scientific Achievement
+            </h3>
+            <p>
+              Dr. Suboj Babykutty, Assistant Professor, Department of Zoology,
+              has won the Kairali Research Award (Gaveshana Puraskaram)
+              instituted by the Government of Kerala, awarded to Faculty members
+              of Universities or Colleges of Kerala, in the areas of Chemical
+              Science/Physical Science/Biological Science/Social Science/Arts
+              and Humanities, excelled in research/pursuing research in cutting
+              edge areas. The award carries an amount of Rs. One lakh and a
+              Research grant of Rs. Twenty Four lakhs.
+            </p>
           </div>
         </div>
       </div>
