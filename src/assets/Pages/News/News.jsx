@@ -39,7 +39,7 @@ export default function News() {
             </p>
           </div>
         </div>
-
+<hr />
         <div className="row section-2">
           <div className="col-md-6 news-content-2">
             <h3>
@@ -67,7 +67,7 @@ export default function News() {
             />
           </div>
         </div>
-
+        <hr />
         <div className="row section-1">
           <div className="col-md-6 image-section">
             <img
@@ -89,6 +89,7 @@ export default function News() {
             </p>
           </div>
         </div>
+        <hr />
         <div className="row section-2">
           <div className="col-md-6 news-content-2">
             <h3>
@@ -115,6 +116,7 @@ export default function News() {
             />
           </div>
         </div>
+        <hr />
         <div className="row section-1">
           <div className="col-md-6 image-section">
           <img
