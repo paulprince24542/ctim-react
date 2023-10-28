@@ -9,17 +9,17 @@ export default function News() {
   return (
     <div>
       <Navbar />
-      <hr />
+
       <div className="container">
         <div className="row">
-          <div className="col-12 images-heading">
+          <div className="col-12 images-heading mt-5 mb-5">
             <h1>
               CTIM <span style={{ color: "red" }}>NEWS</span>
             </h1>
             <h4>Where Knowledge Meets Headlines.</h4>
           </div>
         </div>
-        <hr />
+   <hr />
         <div className="row section-1">
           <div className="col-md-6 image-section">
             <img
