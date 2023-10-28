@@ -1,7 +1,6 @@
 @media only screen and (min-width: 1200px) {
   .navbar {
     height: 120px;
-    background-color: white;
   }
 
   .nav-link {
@@ -78,7 +77,6 @@
 
 @media only screen and (max-width: 600px) {
   .navbar {
-    background-color: white;
   }
   .nav-btn {
     margin-top: 20px;
@@ -103,4 +101,9 @@
 .nav-link {
   color: black;
   font-family: "Poppins", sans-serif;
+}
+
+
+.navbar{
+  background-color: white;
 }
