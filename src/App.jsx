@@ -13,6 +13,8 @@ import Research from "./assets/Pages/Research/research";
 import Publication from "./assets/Pages/Publication/Publication";
 import Opportunity from "./assets/Pages/Opportunities/Opportunity";
 import News from "./assets/Pages/News/News";
+import PeopleHome from "./assets/Pages/People/PeopleHome";
+import PrincipalHome from "./assets/Pages/People/PrincipalHome";
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/people" element={<People />} />
+        <Route path="/people" element={<PeopleHome />} />
+        <Route path="/members" element={<People />} />
+        <Route path="/principal" element={<PrincipalHome />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/research" element={<Research />} />
         {/* <Route path="/publications" element={<Publications />} /> */}

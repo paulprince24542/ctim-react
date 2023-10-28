@@ -7,6 +7,8 @@
   .nav-link {
     margin-top: 30px;
     font-size: 17px;
+    margin-left: 10px;
+    transition: 0.2s;
   }
   .logo-1 {
     margin-top: 10px;
@@ -71,6 +73,7 @@
     height: 100px;
     margin-top: 10px;
   }
+  
 }
 
 @media only screen and (max-width: 600px) {
@@ -90,4 +93,14 @@
     height: 60px;
     margin-top: 10px;
   }
+  .nav-link {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
+}
+
+.nav-link {
+  color: black;
+  font-family: "Poppins", sans-serif;
 }

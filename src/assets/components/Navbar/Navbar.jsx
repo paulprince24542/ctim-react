@@ -3,7 +3,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg nav">
+    <nav className="navbar navbar-expand-lg nav navbar-light bg-light">
       <div className="container-md">
         <img className="logo-1" src="./assets/images/logo-4.1.png" />
         <img className="d-lg-none logo-3" src="./assets/images/logo-2.1.png" />
@@ -49,7 +49,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="/people">
+              <a className="nav-link" href="/people">
                 People
               </a>
             </li>

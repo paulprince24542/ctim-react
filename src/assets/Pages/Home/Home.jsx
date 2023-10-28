@@ -7,12 +7,13 @@ import Marquee from "react-fast-marquee";
 //Import Components
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/footer";
+import Card from "../../components/Cards/Card";
 
 const Home = () => {
   var cardData = [
     {
-      img: "/assets/images/cards/C4.png",
-      head: "Research Materials from CTIM Lab",
+      img: "/assets/images/cards/C7.png",
+      head: "Research",
       desc: `CTIM trying to explore pro inflammatory adipokine chemokine axis
       in obese BC, which suppresses immune surveillance in tumor
       microenvironment.`,
@@ -20,17 +21,17 @@ const Home = () => {
     },
     {
       img: "/assets/images/cards/C2.png",
-      head: "Find latest news from CITM Lab !",
-      desc: ` Another achievement for CTIM: The PI, Dr. Suboj Babykutty got
-      awarded the Young Investigator's Programme in Biotechnology
-      2023.`,
+      head: "CTIM Lab News",
+      desc: ` Recieved Young Investigator's Programme in Biotechnology from KSCSTE -KBC`,
       link: "/news",
     },
 
     {
       img: "/assets/images/cards/C5.jpg",
-      head: "Find CTIM publications here !",
-      desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      head: "Publications",
+      desc: `CTIM trying to explore pro inflammatory adipokine chemokine axis
+      in obese BC, which suppresses immune surveillance in tumor
+      microenvironment.`,
       link: "/publications",
     },
   ];
@@ -63,10 +64,7 @@ const Home = () => {
         CTIM's Dr. Suboj Babykutty Honored with Young Investigator's Award in
         Biotechnology 2023, CTIM Secures German Patent for Breakthrough in
         Anti-Cancer Quinoline Derivatives, Harvard Medical School Professor
-        Delivers Erudite Lecture at Mar Ivanios College, Dr. Suboj Babykutty
-        Awarded Prestigious TARE Fellowship for Research Excellence,Dr. Suboj
-        Babykutty Receives Kairali Research Award for Outstanding Scientific
-        Achievement
+        Delivers Erudite Lecture at Mar Ivanios College
       </Marquee>
 
       {/* About Content Start */}
@@ -117,19 +115,8 @@ const Home = () => {
       {/* Card Section Start */}
 
       <div className="container">
-        <div className="row card-section">
-          {cardData.map((data) => (
-            <div className="col-md-4 t-box">
-              <div className="card-box-1">
-                <img src={data.img} alt="" />
-                <h5 className="card-title">{data.head}</h5>
-                <p className="card-text">{data.desc}</p>
-                <a href={data.link} className="btn btn-primary">
-                  Go Somewhere
-                </a>
-              </div>
-            </div>
-          ))}
+        <div className="row ">
+          <Card cardData={cardData} />
         </div>
       </div>
 

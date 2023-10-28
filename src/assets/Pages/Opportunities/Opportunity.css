@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Enriqueta&display=swap");
+
+@media only screen and (max-width: 600px) {
+  .collage > img {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    transition: 0.3s;
+  }
+
+  .opporunities-section {
+    margin-bottom: 30px;
+  }
+  .details h4 {
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .details p {
+    margin-top: 30px;
+  }
+
+  .explore a {
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    transition: 0.1s;
+    text-decoration: none;
+    background-color: rgb(211, 223, 223);
+    cursor: pointer;
+    color: black;
+  }
+
+  .explore a:hover {
+    background-color: rgb(238, 233, 233);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .collage > img {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    transition: 0.3s;
+  }
+
+  .opporunities-section {
+    margin-bottom: 30px;
+  }
+
+  .details {
+    margin: 20px 10px 20px 50px;
+  }
+
+  .details h4 {
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .details p {
+    margin-top: 30px;
+  }
+
+  .explore a {
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    transition: 0.1s;
+    text-decoration: none;
+    background-color: rgb(211, 223, 223);
+    cursor: pointer;
+    color: black;
+  }
+
+  .explore a:hover {
+    background-color: rgb(238, 233, 233);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .collage {
+    margin: 50px;
+  }
+
+  .collage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 30px;
+    transition: 0.3s;
+  }
+
+  .collage > img:hover {
+    transform: scale(1.1);
+  }
+
+  .details {
+    margin: 80px 20px 20px 6%;
+  }
+
+  .details h4 {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+  }
+
+  .details p {
+    margin-top: 30px;
+  }
+
+  .explore a {
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    transition: 0.1s;
+    text-decoration: none;
+    background-color: rgb(211, 223, 223);
+    cursor: pointer;
+  }
+
+  .explore a:hover {
+    background-color: rgb(238, 233, 233);
+  }
+
+  .opporunities-section {
+    margin-bottom: 50px;
+  }
+}
+
+.details p {
+  color: black;
+  font-family: "Enriqueta", serif;
+}

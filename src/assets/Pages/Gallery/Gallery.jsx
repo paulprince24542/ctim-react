@@ -136,7 +136,7 @@ const Gallery = () => {
           </div>
           <div className="col-md-3 g-box-2">
             <img
-              src="./assets/images/gallery/15.JPG"
+              src="./assets/images/gallery/15.png"
               className="col-md-12 img-box"
               alt=""
             />

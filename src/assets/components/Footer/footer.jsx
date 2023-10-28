@@ -51,7 +51,7 @@ const Footer = () => {
                   <i className="fa-solid fa-paper-plane fa-2xl"></i>
                   <div>
                     <h4>Mail</h4>
-                    <span>suboj.babykutty@mic.ac.in</span>
+                    <span>ctimmic09@gmail.com</span>
                   </div>
                 </div>
               </div>
