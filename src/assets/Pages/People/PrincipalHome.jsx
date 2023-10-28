@@ -98,9 +98,9 @@ const PrincipalHome = () => {
       {/* Hero Section Start */}
       <div class="team-heading-section text-center">
         <h2>
-          Our <span>Team</span>
+          PRINCIPAL <span>INVSETIGATOR</span>
         </h2>
-        <h4>Meet our awesome and expert team members</h4>
+        {/* <h4>Meet our awesome and expert team members</h4> */}
       </div>
       <hr />
       {/* Hero Section End */}
