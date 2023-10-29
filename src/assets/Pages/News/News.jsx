@@ -47,7 +47,7 @@ export default function News() {
               Quinoline Derivatives
             </h3>
             <p>
-              In a groundbreaking achievement, the Center for Tumor and
+              In a groundbreaking achievement, the Centre for Tumor Immunology and
               Microenvironment (CTIM) has been granted a valuable German patent
               for its pioneering work in detailing the remarkable anti-cancer
               properties of synthetic quinoline derivatives.

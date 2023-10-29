@@ -11,10 +11,9 @@ const Gallery = () => {
         <hr />
         <div className="row">
           <div className="col-xs-12 research-heading">
-            <h3>
-              Our <span style={{ color: "" }}>Gallery</span>
-            </h3>
-            <h4>Capturing Moments And Creating Memories</h4>
+            <h4>
+              <span style={{ color: "" }}>Gallery</span>
+            </h4>
           </div>
         </div>
         <hr />

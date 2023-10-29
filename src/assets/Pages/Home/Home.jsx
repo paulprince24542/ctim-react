@@ -78,7 +78,7 @@ const Home = () => {
             </div>
             <div className="col-xs-12 col-md-6 about-content">
               <h2>
-                ABOUT OUR <span style={{ color: "" }}>LAB</span>
+                About Our <span style={{ color: "" }}>Lab</span>
               </h2>
               <p>
                 Our group studies how numerous mechanisms in the tumour
@@ -109,7 +109,7 @@ const Home = () => {
                   color: "#800000",
                 }}
               >
-                QUICK <span style={{ color: "" }}>ACCESS</span>
+                Quick <span style={{ color: "" }}>Access</span>
               </center>
             </h1>
           </div>

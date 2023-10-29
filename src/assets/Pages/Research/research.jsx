@@ -15,9 +15,9 @@ const Research = () => {
           <hr />
           <div className="row">
             <div className="col-xs-12 research-heading">
-              <h3>
+              <h4>
                 Research <span style={{ color: "" }}>Materials</span>
-              </h3>
+              </h4>
               {/* <h4>Read our awesome and expert research papers</h4> */}
             </div>
           </div>

@@ -18,8 +18,8 @@ export default function PeopleHome() {
                 color: "#800000",
               }}
             >
-              OUR
-              <span style={{ color: "" }}> PEOPLE</span>
+              
+              <span style={{ color: "" }}> People</span>
             </h3>
           </center>
         </div>

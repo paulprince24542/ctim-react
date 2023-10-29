@@ -12,7 +12,7 @@ const Contact = () => {
           <div className="col-12"></div>
           <div className="col-12 contact-section mt-5">
             <h3>
-              SEND US A <span style={{ color: "" }}>MESSAGE</span>
+              Send us a <span style={{ color: "" }}>message</span>
             </h3>
             <div className="mb-3">
               {/* <label for="exampleFormControlInput1" className="form-label">
@@ -55,7 +55,7 @@ const Contact = () => {
       </div>
       <div className="container map-section">
         <h3 className="mt-4">
-          GOOGLE MAP<span style={{ color: "" }}> DIRECTIONS</span>
+          Google Map<span style={{ color: "" }}> Directions</span>
         </h3>
         <div className="row">
           <div className="col-12 d-flex align-items-center justify-content-center mb-5">

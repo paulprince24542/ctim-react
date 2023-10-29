@@ -13,8 +13,8 @@
   flex-direction: column;
 }
 
-.publications-heading h2 {
-  text-transform: uppercase;
+.publications-heading h4 {
+  font-size: 40px;
   margin-top: 20px;
   margin-bottom: 10px;
   font-weight: bold;

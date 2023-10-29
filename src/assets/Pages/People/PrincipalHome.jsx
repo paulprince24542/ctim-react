@@ -13,7 +13,7 @@ const PrincipalHome = () => {
       {/* Hero Section Start */}
       <div class="team-heading-section text-center">
         <h2>
-          PRINCIPAL <span>INVSETIGATOR</span>
+          Principal <span>Investigator</span>
         </h2>
         {/* <h4>Meet our awesome and expert team members</h4> */}
       </div>

@@ -98,7 +98,7 @@ const People = () => {
       {/* Hero Section Start */}
       <div class="team-heading-section text-center">
         <h2>
-          Our <span>Lab Team</span>
+          <span>Lab Members</span>
         </h2>
         {/* <h4>Meet our awesome and expert team members</h4> */}
       </div>

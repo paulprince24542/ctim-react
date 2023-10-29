@@ -75,8 +75,8 @@
   justify-content: center;
 }
 
-.research-heading > h3 {
-  text-transform: uppercase;
+.research-heading > h4 {
+  font-size: 40px;
   color: #800000;
   font-family: "Playfair Display", serif;
   margin-top: 20px;
