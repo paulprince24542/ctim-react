@@ -22,7 +22,7 @@ const Home = () => {
     {
       img: "/assets/images/cards/C2.png",
       head: "CTIM Lab News",
-      desc: ` Dr. Suboj Babykutty received YIPB grant from KSCTE-KBC`,
+      desc: ` Dr. Suboj Babykutty received YIPB grant from KSCSTE-KBC`,
       link: "/news",
     },
 
@@ -59,7 +59,7 @@ const Home = () => {
           fontWeight: "bold",
         }}
       >
-        CTIM's Dr. Suboj Babykutty Honored with Young Investigator's Award in
+        , CTIM's Dr. Suboj Babykutty Honored with Young Investigator's Award in
         Biotechnology 2023, CTIM Secures German Patent for Breakthrough in
         Anti-Cancer Quinoline Derivatives, Harvard Medical School Professor
         Delivers Erudite Lecture at Mar Ivanios College

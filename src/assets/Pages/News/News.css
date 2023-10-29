@@ -71,6 +71,8 @@
 
 .images-heading h1 {
   font-weight: bold;
+  font-family: "Playfair Display", serif;
+  color: #800000;
 }
 
 .news-content,

@@ -133,6 +133,12 @@ const PrincipalHome = () => {
                     alt=""
                   />
                 </a>
+                <a href="https://marivanioscollege.irins.org/profile/280958">
+                  <img
+                    src="https://library.mnit.ac.in/images/irins1.png"
+                    alt=""
+                  />
+                </a>
               </div>
             </div>
 

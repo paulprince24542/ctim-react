@@ -14,12 +14,12 @@ export default function News() {
         <div className="row">
           <div className="col-12 images-heading mt-5 mb-5">
             <h1>
-              CTIM <span style={{ color: "red" }}>NEWS</span>
+              CTIM <span style={{ color: "" }}>NEWS</span>
             </h1>
-            <h4>Where Knowledge Meets Headlines.</h4>
+            {/* <h4>Where Knowledge Meets Headlines.</h4> */}
           </div>
         </div>
-   <hr />
+        <hr />
         <div className="row section-1">
           <div className="col-md-6 image-section">
             <img
@@ -39,7 +39,7 @@ export default function News() {
             </p>
           </div>
         </div>
-<hr />
+        <hr />
         <div className="row section-2">
           <div className="col-md-6 news-content-2">
             <h3>
@@ -47,16 +47,10 @@ export default function News() {
               Quinoline Derivatives
             </h3>
             <p>
-              In a groundbreaking achievement, the Center for Therapeutic
-              Innovations in Medicine (CTIM) has been granted a valuable German
-              patent for its pioneering work in detailing the remarkable
-              anti-cancer properties of synthetic quinoline derivatives. This
-              patent recognition underscores the institute's significant
-              contributions to cancer research and marks a significant step
-              forward in the development of potential cancer-fighting
-              treatments. CTIM's innovative approach and dedication to advancing
-              medical science are now poised to make a profound impact on the
-              field of oncology
+              In a groundbreaking achievement, the Center for Tumor and
+              Microenvironment (CTIM) has been granted a valuable German patent
+              for its pioneering work in detailing the remarkable anti-cancer
+              properties of synthetic quinoline derivatives.
             </p>
           </div>
           <div className="col-md-6 image-section">
@@ -85,7 +79,7 @@ export default function News() {
             <p>
               Dr. Dan Gabriel Duda, Associate Professor, Massachusetts General
               Hospital, Harvard MedicalSchool, Boston, USA, delivering Erudite
-              Lecture in Mar Ivanios College, Thiruvananthapuram
+              Lecture in Mar Ivanios College, Thiruvananthapuram.
             </p>
           </div>
         </div>
@@ -119,7 +113,7 @@ export default function News() {
         <hr />
         <div className="row section-1">
           <div className="col-md-6 image-section">
-          <img
+            <img
               className="news-image-1"
               src="./assets/images/news/1.png"
               alt=""
@@ -127,7 +121,7 @@ export default function News() {
           </div>
 
           <div className="col-md-6 news-content">
-          <h3>
+            <h3>
               Dr. Suboj Babykutty Receives Kairali Research Award for
               Outstanding Scientific Achievement
             </h3>
