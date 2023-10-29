@@ -8,20 +8,6 @@ import Footer from "../../components/Footer/footer";
 const People = () => {
   var peopleData = [
     {
-      name: "Athira Gireesh GM",
-      img: "https://media.discordapp.net/attachments/1164613528922103960/1164615451272294482/Athira_Gireesh_G.M..jpg?ex=6543dba9&is=653166a9&hm=17f1d032f0ac85a1ffbc14f024083092798ec0269195782a8231384e7df98142&=&width=441&height=662",
-      email: "athira.gireesh@mic.ac.in",
-      desc: `I joined the CTIM lab in 2020 after obtaining
-      Joint-CSIR-UGC-JRF and upgraded to SRF in 2023.
-      I have done my graduation and postgraduation in
-      zoology under Kerala University. My research work
-      at
-      CTIM focuses on targeting chemoattractant
-      cytokines in tumor thereby improve
-      vasculature and enhance immune surveillance
-      in triple negative breast cancer.`,
-    },
-    {
       name: "Hima Xavier",
       img: "https://cdn.discordapp.com/attachments/1164613528922103960/1164615451905642596/Hima_Xavier.jpg?ex=6543dba9&is=653166a9&hm=27fa59201525c641b77b3e39c405cd61342178f256853f733865089af4484d6f&",
       email: "hima.xavier@mic.ac.in",
@@ -34,6 +20,20 @@ const People = () => {
       triple negative breast cancer microenvironment and
       to find potentialdrug targets to improve
       immunotherapy.`,
+    },
+    {
+      name: "Athira Gireesh GM",
+      img: "https://media.discordapp.net/attachments/1164613528922103960/1164615451272294482/Athira_Gireesh_G.M..jpg?ex=6543dba9&is=653166a9&hm=17f1d032f0ac85a1ffbc14f024083092798ec0269195782a8231384e7df98142&=&width=441&height=662",
+      email: "athira.gireesh@mic.ac.in",
+      desc: `I joined the CTIM lab in 2020 after obtaining
+      Joint-CSIR-UGC-JRF and upgraded to SRF in 2023.
+      I have done my graduation and postgraduation in
+      zoology under Kerala University. My research work
+      at
+      CTIM focuses on targeting chemoattractant
+      cytokines in tumor thereby improve
+      vasculature and enhance immune surveillance
+      in triple negative breast cancer.`,
     },
     {
       name: "Juvin Ann Thomas",
