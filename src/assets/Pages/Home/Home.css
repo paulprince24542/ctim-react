@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
 @media only screen and (max-width: 600px) {
   .content > h1 {
@@ -112,13 +113,16 @@ video {
 p {
   color: white;
   /* font-family: 'Fredericka the Great', serif; */
+
 }
 
 .about-content > h2 {
   text-align: center;
   margin-bottom: 22px;
-  font-family: "Roboto", sans-serif;
-  color: black;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: #800000;
 }
 
 .about-content > p {

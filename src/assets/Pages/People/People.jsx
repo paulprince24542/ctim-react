@@ -100,7 +100,7 @@ const People = () => {
         <h2>
           Our <span>Lab Team</span>
         </h2>
-        <h4>Meet our awesome and expert team members</h4>
+        {/* <h4>Meet our awesome and expert team members</h4> */}
       </div>
       <hr />
       {/* Hero Section End */}

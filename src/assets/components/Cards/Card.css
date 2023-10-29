@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 @media only screen and (max-width: 600px) {
   .card-title {
     padding-top: 20px;
@@ -46,7 +47,7 @@
     font-weight: bold;
   }
   .card-text {
-    margin-left: 10px;
+    /* margin-left: 10px; */
     color: black;
     margin-top: 10px;
   }
@@ -69,17 +70,23 @@
     -webkit-box-shadow: 1px 2px 5px 8px rgba(0, 0, 0, 0.27);
     -moz-box-shadow: 1px 2px 5px 8px rgba(0, 0, 0, 0.27);
   }
+
+  .explore-btn:nth-child(){
+    margin-top: 120px;
+  }
 }
 
 .card {
   margin: 5% 0%;
   border: none;
   background-color: rgb(245, 249, 249);
+  height: 550px;
 }
 
 .card-title {
   /* font-family: "Roboto", sans-serif; */
-  font-family: basic, sans-serif;
+  font-family: 'Lato', sans-serif;
+  /* font-family: basic, sans-serif; */
   text-align: center;
   color: rgb(9, 57, 102);
 }
@@ -90,7 +97,9 @@
 
 .card-text {
   color: black;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: 'Lato', sans-serif;
+  text-align: center;
 }
 
 .btn {
@@ -101,3 +110,4 @@
   margin-right: 20px;
   margin-top: 20px;
 }
+

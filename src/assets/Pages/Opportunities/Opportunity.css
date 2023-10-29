@@ -14,9 +14,11 @@
   }
   .details h4 {
     font-family: "Playfair Display", serif;
+    font-weight: bold;
     font-size: 35px;
     text-align: center;
     margin-top: 30px;
+    color: #800000;
   }
   .details p {
     margin-top: 30px;
@@ -138,4 +140,9 @@
 .details p {
   color: black;
   font-family: "Enriqueta", serif;
+}
+
+.details h4{
+  font-weight: bold;
+  color: #800000;
 }

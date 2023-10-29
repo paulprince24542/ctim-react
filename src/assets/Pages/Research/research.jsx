@@ -16,7 +16,7 @@ const Research = () => {
           <div className="row">
             <div className="col-xs-12 research-heading">
               <h3>
-                Research <span style={{ color: "red" }}>Materials</span>
+                Research <span style={{ color: "" }}>Materials</span>
               </h3>
               {/* <h4>Read our awesome and expert research papers</h4> */}
             </div>
@@ -125,7 +125,7 @@ const Research = () => {
       </div>
       <div className="container accordian-section">
         <h2>
-          Research <span style={{ color: "red" }}>Collabrators</span>
+          Research <span style={{ color: "" }}>Collabrators</span>
         </h2>
         <div className="accordion accordion-flush" id="accordionFlushExample">
           {collaboratorData.map((data) => (

@@ -121,14 +121,18 @@ const PrincipalHome = () => {
                   src="https://cdn.discordapp.com/attachments/1164613528922103960/1166091211409465385/ORCID_ID.jpg?ex=65493a11&is=6536c511&hm=0e342f2fa719e30019f61ce83b96dcd41f5715159435a15188a39a77ddc68a70&"
                   alt=""
                 />
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/1/14/ORCID_logo.svg"
-                  alt=""
-                />
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg"
-                  alt=""
-                />
+                <a href="https://orcid.org/0000-0002-1376-6959">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/1/14/ORCID_logo.svg"
+                    alt=""
+                  />
+                </a>
+                <a href="https://scholar.google.com/citations?user=9uHz9X0AAAAJ&hl=en">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg"
+                    alt=""
+                  />
+                </a>
               </div>
             </div>
 
@@ -179,8 +183,6 @@ const PrincipalHome = () => {
               </p>
             </div>
           </div>
-         
-          
         </div>
       </section>
       {/* Team Section End */}

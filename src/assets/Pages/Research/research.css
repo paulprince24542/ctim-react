@@ -15,11 +15,10 @@
     color: black;
     text-align: left;
   }
-  .accordion-image img{
+  .accordion-image img {
     width: 100%;
     margin-top: 20px;
     border-radius: 10px;
-
   }
 }
 
@@ -62,11 +61,10 @@
     text-align: left;
   }
 
-  .accordion-image img{
+  .accordion-image img {
     width: 20%;
     margin-top: 20px;
     border-radius: 10px;
-
   }
 }
 
@@ -79,6 +77,8 @@
 
 .research-heading > h3 {
   text-transform: uppercase;
+  color: #800000;
+  font-family: "Playfair Display", serif;
   margin-top: 20px;
   margin-bottom: 10px;
   font-weight: bold;
@@ -132,12 +132,16 @@
   margin-bottom: 30px;
 }
 
+.accordian-section h2 {
+  font-family: "Playfair Display", serif;
+  color: #800000;
+}
+
 .accordion-item {
   margin-top: 20px;
 }
 
-
-.visit{
+.visit {
   margin-left: 20px;
   text-decoration: none;
   width: 140px;

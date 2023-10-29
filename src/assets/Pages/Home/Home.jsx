@@ -22,16 +22,14 @@ const Home = () => {
     {
       img: "/assets/images/cards/C2.png",
       head: "CTIM Lab News",
-      desc: ` Recieved Young Investigator's Programme in Biotechnology from KSCSTE -KBC`,
+      desc: ` Dr. Suboj Babykutty received YIPB grant from KSCTE-KBC`,
       link: "/news",
     },
 
     {
       img: "/assets/images/cards/C5.jpg",
       head: "Publications",
-      desc: `CTIM trying to explore pro inflammatory adipokine chemokine axis
-      in obese BC, which suppresses immune surveillance in tumor
-      microenvironment.`,
+      desc: "Find CTIM related publications and stay tuned with our scientific inputs.",
       link: "/publications",
     },
   ];
@@ -80,7 +78,7 @@ const Home = () => {
             </div>
             <div className="col-xs-12 col-md-6 about-content">
               <h2>
-                ABOUT OUR <span style={{ color: "red" }}>LAB</span>
+                ABOUT OUR <span style={{ color: "" }}>LAB</span>
               </h2>
               <p>
                 Our group studies how numerous mechanisms in the tumour
@@ -104,8 +102,14 @@ const Home = () => {
         <div className="row">
           <div className="col-12">
             <h1>
-              <center style={{ fontWeight: "bold" }}>
-                QUICK <span style={{ color: "red" }}>ACCESS</span>
+              <center
+                style={{
+                  fontWeight: "bold",
+                  fontFamily: "Playfair Display",
+                  color: "#800000",
+                }}
+              >
+                QUICK <span style={{ color: "" }}>ACCESS</span>
               </center>
             </h1>
           </div>

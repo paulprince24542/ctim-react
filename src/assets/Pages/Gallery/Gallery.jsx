@@ -12,7 +12,7 @@ const Gallery = () => {
         <div className="row">
           <div className="col-xs-12 research-heading">
             <h3>
-              Our <span style={{ color: "red" }}>Gallery</span>
+              Our <span style={{ color: "" }}>Gallery</span>
             </h3>
             <h4>Capturing Moments And Creating Memories</h4>
           </div>

@@ -9,24 +9,7 @@ const Footer = () => {
           <div className="footer-cta">
             <div className="row">
               <div className="col-md-4">
-                {/* <div className="cta-text">
-                  <i class="fa-solid fa-location-dot fa-2xl"></i>
-                  <div>
-                    <h4>Find Us</h4>
-                    <span>
-                      Centre for Tumor Immunology and Microenvironment
-                    </span>
-                    <br />
-                    <span>Dept of Zoology</span>
-                    <br />
-                    <span>Mar Ivanios College (Autonomous)</span>
-                    <br />
-                    <span>Bethany Hills, Nalanchira P.O,</span>
-                    <br />
-                    <span>Thiruvanathapuram - 695015 Kerala, India.</span>
-                    <br />
-                  </div>
-                </div> */}
+                
                 <div className="cta-text">
                   <i className="fa-solid fa-location-dot fa-2xl"></i>
                   <div>

@@ -136,9 +136,9 @@ function Publication() {
         <div className="row">
           <div className="col-xs-12 publications-heading">
             <h2>
-              Our <span style={{ color: "red" }}>Publications</span>
+              Our <span style={{ color: "" }}>Publications</span>
             </h2>
-            <h4>Where Ideas Take Shape, Words Find Life</h4>
+            {/* <h4>Where Ideas Take Shape, Words Find Life</h4> */}
           </div>
         </div>
         <hr />

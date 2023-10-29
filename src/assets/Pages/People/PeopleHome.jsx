@@ -11,9 +11,15 @@ export default function PeopleHome() {
       <div className="container">
         <div>
           <center className="mb-5 mt-5">
-            <h3>
-              MEET OUR
-              <span style={{ color: "red" }}> PEOPLE</span>
+            <h3
+              style={{
+                fontFamily: "Playfair Display",
+                fontWeight: "bold",
+                color: "#800000",
+              }}
+            >
+              OUR
+              <span style={{ color: "" }}> PEOPLE</span>
             </h3>
           </center>
         </div>

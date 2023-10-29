@@ -32,10 +32,14 @@
 
 .contact-section h3 {
   text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+  color: #800000;
   font-weight: bold;
 }
 
 .map-section h3 {
+  font-family: 'Playfair Display', serif;
+  color: #800000;
   text-transform: uppercase;
   font-weight: bold;
 }

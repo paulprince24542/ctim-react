@@ -18,10 +18,11 @@ export default function Card({ cardData }) {
             <div class="card-body">
               <p class="card-text">{data.desc}</p>
 
+              <br/>
               <div className="d-flex justify-content-end">
-                <button type="button" class="btn btn-primary">
+                <a href={data.link} class="btn btn-primary explore-btn">
                   Explore More
-                </button>
+                </a>
               </div>
             </div>
           </div>
