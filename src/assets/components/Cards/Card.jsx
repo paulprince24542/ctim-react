@@ -20,7 +20,7 @@ export default function Card({ cardData }) {
 
               <br />
               <div className="d-flex justify-content-end">
-                <a href={data.link} class="btn btn-primary explore-btn">
+                <a href={data.link} class="btn explore-btn">
                   Explore More
                 </a>
               </div>
