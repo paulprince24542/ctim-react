@@ -18,7 +18,7 @@ export default function Card({ cardData }) {
             <div class="card-body">
               <p class="card-text">{data.desc}</p>
 
-              <br/>
+              <br />
               <div className="d-flex justify-content-end">
                 <a href={data.link} class="btn btn-primary explore-btn">
                   Explore More

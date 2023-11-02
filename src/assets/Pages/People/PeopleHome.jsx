@@ -19,7 +19,7 @@ export default function PeopleHome() {
               }}
             >
               
-              <span style={{ color: "" }}> People</span>
+              <span style={{ color: "" }}>Team CTIM</span>
             </h3>
           </center>
         </div>

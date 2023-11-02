@@ -15,8 +15,7 @@ const Home = () => {
       img: "/assets/images/cards/C7.png",
       head: "Research",
       desc: `CTIM trying to explore pro inflammatory adipokine chemokine axis
-      in obese BC, which suppresses immune surveillance in tumor
-      microenvironment.`,
+      in obese BC.`,
       link: "/research",
     },
     {

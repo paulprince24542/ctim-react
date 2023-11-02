@@ -24,6 +24,13 @@ function Publication() {
   ];
   const publicationData = [
     {
+      id: 52,
+      header:
+        "Isodeoxyelephantopin (IDOE) retards tumor cell migration by downregulating MMP-2/9 expression in triple negative breast cancer",
+      desc: ` Babykutty, S., A. George, S. Vijayan, S. Sidheek, S. Sulfath, A. Moly, J. Thomas, H. Xavier, P. Chellama, and D. Rajalekshmi.Journal of Applied Pharmaceutical Sciences and Research, Vol. 4, no. 2, Sept. 2021, pp. 21-28, doi:10.31069/japsr.v4i2.5.`,
+      link: `https://japsr.in/index.php/journal/article/view/162`,
+    },
+    {
       id: 2,
       header:
         "Obesity promotes resistance to anti-VEGF therapy in breast cancer by up-regulating IL-6 and potentially FGF-2.",

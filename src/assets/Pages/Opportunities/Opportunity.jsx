@@ -19,9 +19,9 @@ export default function Oppurtunity() {
             <div className="details">
               <h4>Opportunities</h4>
               <p>
-                Thank you for your interest in CTIM, currently we have no
-                opportunities in our laboratory. Be in touch with us or write us
-                for specific enquiries
+                Thank you for your interest in CTIM,We are currently accepting
+                MSc students for 2 months projects. Be in touch with us or write
+                us for specific enquiries.
               </p>
               <p>
                 For inquiries and applications, please contact us via e-mail:
