@@ -28,6 +28,15 @@ var collaboratorData = [
     imgurl: "./assets/images/collab/Prof.Sabu_Thomas.jpg",
   },
   {
+    id: "a11",
+    name: "Dr. Sajeevan T.P",
+    desc: `Professor, Department of Marine Biology, Microbiology and Biochemistry, 
+    Cochin University of Science and Technology, Ernakulam        
+    `,
+    link: "https://scholar.google.co.in/citations?user=KWljDGgAAAAJ&hl=en",
+    imgurl: "./assets/images/collab/Dr. Sajeevan.jpg",
+  },
+  {
     id: "a3",
     name: "S. Murty Srinivasula, Ph.D.",
     desc: `Professor 
@@ -107,15 +116,6 @@ var collaboratorData = [
     `,
     link: "https://prc.pushpagiri.in/our_team/dr-nebu-george-thomas/",
     imgurl: "./assets/images/collab/Dr.Nebu.png",
-  },
-  {
-    id: "a11",
-    name: "Dr. Sajeevan T.P",
-    desc: `Professor, Department of Marine Biology, Microbiology and Biochemistry, 
-    Cochin University of Science and Technology, Ernakulam        
-    `,
-    link: "https://scholar.google.co.in/citations?user=KWljDGgAAAAJ&hl=en",
-    imgurl: "./assets/images/collab/Dr. Sajeevan.jpg",
   },
 ];
 

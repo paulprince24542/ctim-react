@@ -13,11 +13,11 @@ function Publication() {
     },
     {
       id: 22,
-      header: `Polymeric Materials for Biomedical Implants
-      Characterization, Properties, and Applications
+      header: `Introduction to Immune response towards medical implants (Polymeric materials for biomedical implants)
       `,
       desc: `
-      1st Edition - October 3, Editors: Sabu Thomas, Abhimanyu Tharayil, 2023 Paperback ISBN: 9780323996907
+      Sabu Thomas, Abhimanyu Tharayil(eds), Publisher: Elsevier) Pages 97-107, 
+ISBN: 978-0-323-996914
       `,
       link: "",
     },
@@ -151,7 +151,7 @@ function Publication() {
         <hr />
       </div>
       <div className="container mb-3">
-        <h3 className="mt-5 section-heads">Books</h3>
+        <h3 className="mt-5 section-heads">Books/Book Chapters</h3>
         <div class="accordion accordion-flush" id="accordionFlushExample">
           {books.map((data) => (
             <div class="accordion-item">
